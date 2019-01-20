@@ -1,0 +1,68 @@
+% Diese Vorlage wurde von Benedikt Loepp
+% im März 2018 aktualisiert.
+% Version: 1.1
+
+\documentclass[ngerman, a4paper, abstract=false, twoside=false, parskip=half, DIV=12, bibtotoc]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% Hier den eigenen Namen, die Matrikelnummer und den (vorläufigen)
+% Titel der Abschlussarbeit eintragen
+\newcommand{\autor}{Max Mustermann}
+\newcommand{\matrikelnr}{1234567}
+\newcommand{\titel}{Titel der Abschlussarbeit}
+
+\input{Pakete}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{1}
+
+\title{Proposal}
+\subtitle{\titel}
+\author{\autor \\ {\small Matrikelnr.: \matrikelnr}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}% Hier den Abstract einfügen
+Kurze Zusammenfassung der geplanten Arbeit in 5-10 Zeilen. Ein Leser, der nur diese Zusammenfassung liest, sollte in der Lage sein zu verstehen was in der Arbeit geplant ist. Auch sollte kurz darauf eingegangen werden, wie sich die Thematik aus dem Stand der Forschung motiviert.
+\end{abstract}
+
+% Hier den Inhalt einfügen
+
+\section{Problembeschreibung und Forschungsfrage}
+Kurzer Einführungstext, der das allgemeine Gebiet der Arbeit und dessen Hintergründe bündig beschreibt. Unter Verwendung geeigneter Literaturverweise sollte dabei klar werden, wo die Lücke in der bisherigen Forschung zu dem Thema liegt.
+
+\subsection{Beschreibung des Problems}
+Beschreibung des konkreten Problems, das, durch die oben identifizierte Lücke in der wissenschaftlichen Literatur motiviert, in dieser Arbeit angegangen werden soll.
+
+\subsection{Ziele}
+Identifikation der zentralen Forschungsfrage (oder Forschungsfragen), welche sich aus dem zuvor beschriebenen Problem ableitet. Dabei Erläuterung des Ziels der geplanten Arbeit, d.h. wie die Forschungsfrage im Rahmen dieser Arbeit konkret behandelt werden soll.
+
+
+\section{Stand der Forschung}
+Beschreibung der theoretischen Grundlagen für die in dieser Arbeit zu untersuchenden Fragestellungen. Verankerung der geplanten Untersuchung in den aktuellen Forschungsstand unter Berücksichtigung der Publikationen, die wahrscheinlich den größten Einfluss auf Ihre Arbeit haben werden. Der Fokus sollte hierbei auf Arbeiten liegen, die bereits sehr häufig zitiert wurden und besonders gut zum Thema passen.
+
+Sie sollten an dieser Stelle mindestens fünf einflussreiche Publikationen zitieren. Zitationen können entweder direkt im Text (z.B. \enquote{\citet{Zobel:2004} zeigten \emph{XY}}) oder als nachgestellte Quellen (z.B. \enquote{\emph{XY} wurde bereits gezeigt \citep{Zobel:2004}.}) erscheinen. Alle zitierten Publikationen müssen korrekt und vollständig im Literaturverzeichnis aufgeführt werden. Für weitere Hinweise und formale Richtlinien, siehe auch den vom Lehrstuhl zur Verfügung gestellten \emph{Primer}\footnote{\url{http://interactivesystems.info/theses/howto}}.
+
+Am Ende dieses Abschnittes sollten Sie herausarbeiten, weshalb die bisherigen Ansätze nicht ausreichend sind: Welche Defizite weisen diese Arbeiten auf? Was wurde nicht untersucht? Worin unterscheidet sich Ihre geplante Arbeit von den bisherigen?
+
+
+\section{Hypothesen}
+Grobe Vorstellung der in dieser Arbeit zu untersuchenden Hypothesen (oder zumindest konkreter Fragestellungen) vor dem Hintergrund der gewählten Forschungsfrage (bzw. der zu erreichenden, oben genannten Ziele) und unter Einbeziehung des zuvor beschriebenen Forschungsstandes.
+
+
+\section{Geplante Untersuchungen}
+Vorstellung der geplanten Untersuchungen: In welcher Form sollen die Fragestellungen bzw. Hypothesen untersucht werden? Wie könnte der Aufbau einer ggf. durchzuführenden Studie aussehen? Ist eine Vorstudie geplant? Wie groß wird die Anzahl der Probanden in etwa sein? Welche Probleme sind ggf. zu erwarten?
+
+Es gilt auch zu erläutern, welche Methoden angedacht sind und wie validiert bzw. evaluiert werden soll. Dabei ist es immer gut, auf etablierte Verfahren zurückzugreifen (und andernfalls hier zu begründen, warum man es nicht tut).
+
+\subsection{Erwartete Resultate}
+Kurze Beschreibung, welche Resultate Sie erwarten, worauf sich diese Vermutungen stützen, und wie dies einzuordnen ist.
+
+
+\bibliographystyle{apacite}
+\bibliography{Literatur}
+
+\end{document}
