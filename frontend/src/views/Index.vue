@@ -2,9 +2,10 @@
   <div class="index">
 
     <h1>NewsViz</h1>
-    <Treemap
-      :jsonData="treemapJson">
-    </Treemap>
+
+    <template v-if="treemapJsonLoaded">
+      <Treemap :jsonData="this.treemapJson"/>
+    </template>
 
     <SliderBar :value="value"/>
 
@@ -45,6 +46,7 @@ export default {
   },
   data () {
     return {
+      treemapJsonLoaded: false,
       treemapJson: null,
       newsfeedJson: null,
       articles: null,
@@ -53,12 +55,10 @@ export default {
       value: 65
     }
   },
-  beforeCreate () {
-    this.fetchData()
-  },
   mounted () {
     var that = this
     // loads the data and calls the initialization methods
+    this.fetchData()
 
     d3.json('/api/news',
       function (error, data) {
@@ -72,14 +72,10 @@ export default {
     //   this.$emit('showValue', this.currentValue)
     // },
     fetchData () {
-      api.data().then(
-        function (error, data) {
-          if (error) console.log(error)
-          console.log('RESPONSE DATA' + data)
-          this.treemapJson = data
-          return this.treemapJson
-        }
-      )
+      api.data().then(response => {
+        this.treemapJson = response.data
+        this.treemapJsonLoaded = true
+      })
     },
     calcRelativeValue (value, total) {
       return Math.round((value / total) * 100)

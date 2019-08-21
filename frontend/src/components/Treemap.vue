@@ -147,18 +147,9 @@ export default {
     // An array with colors (can probably be replaced by a vuejs method)
     that.color = d3.scaleOrdinal(d3.schemeCategory20)
 
-    // loads the data and calls the initialization methods
-    console.log(this.jsonData)
-
-    // d3.json('/api/data',
-    //   function (error, data) {
-    //     if (error) console.log(error)
-    //     that.jsonData = data
-    //     that.initialize()
-    //     that.accumulate(that.rootNode, that)
-    //     that.treemap(that.rootNode)
-    //   }
-    // )
+    that.initialize()
+    that.accumulate(that.rootNode, that)
+    that.treemap(that.rootNode)
   },
   // The reactive computed variables that fire rerenders
   computed: {
