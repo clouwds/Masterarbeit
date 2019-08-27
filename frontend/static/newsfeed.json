@@ -3,15 +3,183 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sport1.de",
-    "author": "SPORT1",
-    "title": "Nächster Youngster! Bayern schnappt sich Celtic-Juwel",
+    "source": "Handelsblatt",
+    "author": "Martin Greive, Markus Fasse, Jan Hildebrand, Anja Müller, Katrin Terpitz",
+    "title": "Steuerpolitik: Unternehmer sehen durch Vermögenssteuer-Pläne Investitionen und Arbeitsplätze gefährdet",
+    "category": "politik",
+    "description": "Die SPD hat ihre Pläne für die Vermögensteuer konkretisiert. Für Familienunternehmer könnte das teuer werden. Bei ihnen stoßen die Pläne auf Unverständnis.",
+    "url": "https://www.handelsblatt.com/politik/deutschland/steuerpolitik-unternehmer-sehen-durch-vermoegenssteuer-plaene-investitionen-und-arbeitsplaetze-gefaehrdet/24942190.html",
+    "urlToImage": "https://www.handelsblatt.com/images/thorsten-schaefer-guembel/24944106/5-format2003.jpg",
+    "publishedAt": "2019-08-26T17:52:04Z",
+    "content": "Thorsten Schäfer-GümbelMit seiner Forderung nach einer Wiedereinführung der Vermögenssteuer macht sich der kommissarische SPD-Chef bei der Wirtschaft unbeliebt.\r\n(Foto: Getty Images; Per-Anders Pettersson) \r\nBerlinMartin Herrenknecht ist ein Unternehmer nach … [+965 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Sport.orf.at",
+    "author": "ORF.at",
+    "title": "Djokovic wird Davis-Cup-Finalrunde spielen",
     "category": "sport",
-    "description": "Der Kader der Zukunft des FC Bayern nimmt immer mehr konkrete Konturen an. Von Celtic Glasgow hat der deutsche Rekordmeister den nächsten Youngster verpflichtet. Der 16 Jahre alte Liam Morrison wechselt zum FC Bayern Campus. Der schottische Junioren-Nationals…",
-    "url": "https://www.sport1.de/transfermarkt/2019/08/fc-bayern-verpflichtet-liam-morrison-talent-von-celtic-glasgow",
-    "urlToImage": "https://reshape.sport1.de/unsafe/1200x630/filters:focus(50,32)/https://images.sport1.de/imagix/50bc7b5a-c0ec-11e9-b08e-b8ca3a67761c",
-    "publishedAt": "2019-08-17T12:53:00Z",
-    "content": "Der Kader der Zukunft des FC Bayern nimmt immer mehr konkrete Konturen an. Von Celtic Glasgow hat der deutsche Rekordmeister den nächsten Youngster verpflichtet.\r\nDer 16 Jahre alte Liam Morrison wechselt zum FC Bayern Campus. Der schottische Junioren-National… [+1116 chars]"
+    "description": "",
+    "url": "https://sport.orf.at/stories/3052684/",
+    "urlToImage": "https://ibs.orf.at/sport?image\u003dhttps%3A%2F%2Forf.at%2Fmojo%2F1_4_1%2Fstoryserver%2Fnews%2Fcommon%2Fimages%2Fog-fallback-sport.png%3Fs%3Dd5964eac26c64596e1797f8eaebfaaf6ecfd66ef",
+    "publishedAt": "2019-08-26T17:47:34Z",
+    "content": "Der serbische Davis-Cup-Teamchef Nenad Zimonjic hat angekündigt, dass der Weltranglistenerste Novak Djokovic bei der Finalrunde in Madrid dabei sein wird. Ich hatte die Gelegenheit, in New York mit Novak zu sprechen. Er hat bestätigt, dass er in Madrid zum se… [+500 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Welt.de",
+    "author": "",
+    "title": "So wollen die Anbieter das E-Scooter-Chaos in den Griff kriegen",
+    "category": "wirtschaft",
+    "description": "Seit E-Scooter auf deutschen Straßen zugelassen sind, gibt es immer wieder Ärger. Vor allem die überall abgestellten Roller sorgen für Unmut. Mit Geofencing wollen die Anbieter nun für mehr Ordnung sorgen.",
+    "url": "https://www.welt.de/wirtschaft/video199180855/Geofencing-So-wollen-die-Anbieter-das-E-Scooter-Chaos-in-den-Griff-kriegen.html",
+    "urlToImage": "https://www.welt.de/img/wirtschaft/mobile199182293/2991353197-ci16x9-w1200/E-Scooter-in-der-Frankfurter-Innenstadt.jpg",
+    "publishedAt": "2019-08-26T17:45:12Z",
+    "content": "Die WELT als ePaper: Die vollständige Ausgabe steht Ihnen bereits am Vorabend zur Verfügung so sind Sie immer hochaktuell informiert. Weitere Informationen: http://epaper.welt.de \r\n Der Kurz-Link dieses Artikels lautet: https://www.welt.de/199180855"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Welt.de",
+    "author": "Gerhard Hegmann, Gerhard Hegmann",
+    "title": "Der gefürchtete Siemens-Rivale aus China kommt nach Deutschland",
+    "category": "wirtschaft",
+    "description": "Chinas Eisenbahnriese CRRC bekommt seinen ersehnten Produktionsstandort in Deutschland. Der Vossloh-Konzern will seine Lokomotivensparte verkaufen. Der Einstieg ist gleich in mehrfacher Hinsicht bemerkenswert.",
+    "url": "https://www.welt.de/wirtschaft/article199199183/Vossloh-Lokomotivensparte-wird-an-chinesische-CRRC-verkauft.html",
+    "urlToImage": "https://www.welt.de/img/wirtschaft/mobile199200293/1871356067-ci16x9-w1200/Profits-of-Chinese-train-maker-CRRC-up-4-76-pct-in-2018.jpg",
+    "publishedAt": "2019-08-26T17:44:46Z",
+    "content": "Die chinesische CRRC-Gruppe, der weltgrößte Hersteller von Schienenfahrzeugen, steht vor der ersten Firmenübernahme in Europa. Die Tür für den von Siemens und Alstom gefürchteten Konkurrenten hält der deutsche Vossloh-Konzern auf, der seine Lokomotivensparte … [+2726 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Welt.de",
+    "author": "Philipp Vetter, Philipp Vetter",
+    "title": "Die neuen E-Scooter-Regeln offenbaren die Überforderung der Städte",
+    "category": "wirtschaft",
+    "description": "Viele Fußgänger und Radfahrer ärgern sich über achtlos abgestellte E-Tretroller auf Geh- und Radwegen. Nun haben Städte und Gemeinden mit den vier großen Betreibern eine Absichtserklärung unterzeichnet. Doch ändern wird das Papier gar nichts.",
+    "url": "https://www.welt.de/wirtschaft/article199196109/E-Scooter-Neue-Regeln-offenbaren-Ueberforderung-der-Staedte.html",
+    "urlToImage": "https://www.welt.de/img/wirtschaft/mobile199196107/1431359707-ci16x9-w1200/Circ-e-scooters-lay-on-the-ground-at-the-entrance-to-a-pedestrian-area-in-Frankf.jpg",
+    "publishedAt": "2019-08-26T17:43:17Z",
+    "content": "Glaubt man dem selbsternannten Fußgängerlobbyverein FUSS ist die Situation in der Hauptstadt dramatisch: Nie seit der ersten Nachkriegszeit waren Berlins Gehwege so unbrauchbar wie heute, teilt der Verein mit. Aber wir haben Hoffnung, dass in diesem Sommer mi… [+5510 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Focus",
+    "author": "Von FOCUS-Online-Experte Thomas Jäger",
+    "title": "Die wichtigsten Erkenntnisse aus G7 - Trump nennt Merkel \"brilliante Frau\": Trotz Schmusekurs droht Deutschland Ungemach",
+    "category": "politik",
+    "description": "US-Präsident Donald Trump behandelte Kanzlerin Angela Merkel ausgesucht zuvorkommend. Dabei wurden die massiven Differenzen zwischen beiden Staaten nicht überbrückt, sondern bestenfalls übertüncht. Trotz des Schmusekurses könnte es für Deutschland und Europa …",
+    "url": "https://www.focus.de/politik/ausland/die-wichtigsten-erkenntnisse-aus-g7-trump-nennt-merkel-brilliante-frau-trotz-schmusekurs-droht-deutschland-ungemach_id_11071982.html",
+    "urlToImage": "https://p5.focus.de/img/fotos/crop11071453/53027144-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-190826-99-613417-large-4-3.jpg",
+    "publishedAt": "2019-08-26T14:37:30Z",
+    "content": "Der Gipfel in Biarritz stand eigentlich unter keinem guten Stern. Denn nach dem letzten G7-Treffen in Kanada hatten sich die Regierungen weiter entfremdet, sich gegenseitig gedroht und versucht, ihre jeweiligen politischen Ziele zu hintertreiben.\r\nSie zogen n… [+7577 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Focus",
+    "author": "dpa",
+    "title": "Wahlkampf-Sendung im Live-Stream - So sehen Sie \"MDR-Wahlarena- SpitzenkandidatInnen im Bürgercheck\" live im Internet",
+    "category": "politik",
+    "description": "\"MDR-Wahlarena\" im Live-Stream: Am 1. September wählt das Bundesland Sachsen einen neuen Landtag. Heute stellen sich die Spitzenkandidaten den Fragen der Bürger. So sehen Sie die Sendung live im Internet.",
+    "url": "https://www.focus.de/politik/deutschland/wahlkampf-sendung-im-live-stream-so-sehen-sie-mdr-wahlarena-spitzenkandidatinnen-im-buergercheck-live-im-internet_id_11071545.html",
+    "urlToImage": "https://www.focus.de/resources/ver1-0/pics/fol/focus_online_badge_1200x627px.jpg",
+    "publishedAt": "2019-08-26T14:37:22Z",
+    "content": "Vielen Dank! Ihr Kommentar wurde\r\nabgeschickt.\r\nHier können Sie selbst Artikel verfassen: Bericht schreiben\r\nIm Interesse unserer User behalten wir uns vor, jeden Beitrag\r\nvor der Veröffentlichung zu prüfen. Als registrierter Nutzer werden\r\nSie automatisch pe… [+65 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Sputniknews.com",
+    "author": "Sputnik",
+    "title": "Nord Stream 2: drei Viertel fertig",
+    "category": "wirtschaft",
+    "description": "Der Betreiber der Gaspipeline Nord Stream 2, Nord Stram 2 AG, fährt nach eigenen Angaben mit der Umsetzung des restlichen Viertels des Projektes fort.",
+    "url": "https://de.sputniknews.com/wirtschaft/20190826325655751-deutschland-russland-nord-stream-2-gaspipeline-bauarbeiten-75-prozent/",
+    "urlToImage": "https://cdnde1.img.sputniknews.com/images//32519/39/325193982.jpg",
+    "publishedAt": "2019-08-26T14:34:57Z",
+    "content": ""
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Focus",
+    "author": "Von FOCUS-Online-Experte Chris-Oliver Schickentanz",
+    "title": "Chancen nutzen - Trotz Regierungskrise sind italienische Aktien für Anleger interessant",
+    "category": "finanzen",
+    "description": "Die Regierungskrise in Italien sorgt für Unsicherheit. Baldige Neuwahlen sind möglich. Es droht allerdings keine neue Schuldenkrise.Von FOCUS-Online-Experte Chris-Oliver Schickentanz",
+    "url": "https://www.focus.de/finanzen/boerse/experten/chancen-nutzen-trotz-regierungskrise-sind-italienische-aktien-fuer-anleger-interessant_id_11072150.html",
+    "urlToImage": "https://p5.focus.de/img/fotos/crop11072159/0802719491-w1200-h627-o-q75-p5/329e280018b13043.jpg",
+    "publishedAt": "2019-08-26T14:31:52Z",
+    "content": "Die Regierungskrise in Italien sorgt für Unsicherheit. Baldige Neuwahlen sind möglich. Es droht allerdings keine neue Schuldenkrise.Die italienische Regierungskoalition aus linkspopulistischer Fünf-Sterne-Bewegung und rechtsgerichteter Lega stand seit Beginn … [+6106 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Focus",
+    "author": "Von FOCUS-Online-Partner Christopher Prüfer",
+    "title": "Scheidung bei Hartz IV - Wie Ihre Scheidung kostenlos durchgeführt werden kann",
+    "category": "finanzen",
+    "description": "Scheidung trotz Hartz IV? Klar, mit Hartz IV allein lässt sich eine Scheidung nicht bezahlen. Dennoch brauchen Sie auf Ihre Scheidung nicht zu verzichten, wenn Sie die Scheidungskosten beim besten Willen nicht aufbringen können. Es gibt eine Reihe von Wegen, …",
+    "url": "https://www.focus.de/finanzen/partner/scheidungde/scheidung-bei-hartz-iv-wie-ihre-scheidung-kostenlos-durchgefuehrt-werden-kann_id_11070647.html",
+    "urlToImage": "https://p5.focus.de/img/fotos/crop5745494/0382711418-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-160719-99-741983-large-4-3.jpg",
+    "publishedAt": "2019-08-26T11:35:15Z",
+    "content": "Scheidung trotz Hartz IV? Klar, mit Hartz IV allein lässt sich eine Scheidung nicht bezahlen. Dennoch brauchen Sie auf Ihre Scheidung nicht zu verzichten, wenn Sie die Scheidungskosten beim besten Willen nicht aufbringen können. Es gibt eine Reihe von Wegen, … [+8197 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "N-tv.de",
+    "author": "n-tv NACHRICHTEN",
+    "title": "Golfstar gewinnt Mega-Prämie: McIlroy schafft, was vorher nur Woods gelang",
+    "category": "sport",
+    "description": "Rory McIlroy gewinnt nach 2016 erneut das Finale der PGA Tour. Ein Doppelschlag gelingt zuvor nur Golf-Superstar Tiger Woods. McIlroy erhält dafür aber nicht nur einen Pokal, sondern auch eine riesige Geldprämie. Es ist die bislang höchste in der Geschichte d…",
+    "url": "https://www.n-tv.de/sport/McIlroy-schafft-was-vorher-nur-Woods-gelang-article21229938.html",
+    "urlToImage": "https://bilder2.n-tv.de/img/incoming/crop21229997/6041321096-cImg_16_9-w1200/imago41873929h.jpg",
+    "publishedAt": "2019-08-26T11:35:00Z",
+    "content": "Rory McIlroy gewinnt nach 2016 erneut das Finale der PGA Tour. Ein Doppelschlag gelingt zuvor nur Golf-Superstar Tiger Woods. McIlroy erhält dafür aber nicht nur einen Pokal, sondern auch eine riesige Geldprämie. Es ist die bislang höchste in der Geschichte d… [+2318 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "N-tv.de",
+    "author": "n-tv NACHRICHTEN",
+    "title": "Zwölf Senioren sterben Hitzetod: US-Pfleger wegen Totschlags angeklagt",
+    "category": "panorama",
+    "description": "Wegen Hurrikan \"Irma\" fallen in einem Pflegeheim in Florida sämtliche Klimaanlagen aus. Zwölf Senioren sterben an den Folgen. Ihre Körper weisen eine Kömpertemperatur von 43 Grad auf. Deswegen müssen sich die Pfleger nun wegen Totschlags verantworten.",
+    "url": "https://www.n-tv.de/panorama/US-Pfleger-wegen-Totschlags-angeklagt-article21230084.html",
+    "urlToImage": "https://bilder4.n-tv.de/img/incoming/crop21230119/4751328552-cImg_16_9-w1200/123582833.jpg",
+    "publishedAt": "2019-08-26T11:33:56Z",
+    "content": "Wegen Hurrikan \"Irma\" fallen in einem Pflegeheim in Florida sämtliche Klimaanlagen aus. Zwölf Senioren sterben an den Folgen. Ihre Körper weisen eine Kömpertemperatur von 43 Grad auf. Deswegen müssen sich die Pfleger nun wegen Totschlags verantworten.\r\nMitarb… [+1744 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Die Zeit",
+    "author": "ZEIT ONLINE: Wirtschaft -",
+    "title": "Luftfrachtkartell: Bahn und Lufthansa einigen sich auf Vergleichszahlung",
+    "category": "wirtschaft",
+    "description": "Seit 2013 hatten die beiden Konzerne gegeneinander prozessiert. Es geht um Preisabsprachen und überhöhte Kerosinzuschläge. Nun muss die Lufthansa die Bahn entschädigen.",
+    "url": "https://www.zeit.de/wirtschaft/2019-08/luftfrachtkartell-deutsche-bahn-lufthansa-vergleichszahlung-einigung",
+    "urlToImage": "https://img.zeit.de/wirtschaft/2019-08/luftfrachtkartell-deutsche-bahn-lufthansa-vergleichszahlung/wide__1300x731",
+    "publishedAt": "2019-08-26T11:33:16Z",
+    "content": "Die Deutsche Bahn und\r\ndie Lufthansa haben ihren Streit um ein\r\nLuftfrachtkartell beigelegt. Wie beide Konzerne mitteilten, einigten sie sich auf eine Vergleichszahlung und beendeten damit ihre seit 2013 laufende Auseinandersetzung vor dem Landgericht Köln.\r\n… [+1590 chars]"
   },
   {
     "LOG": {
@@ -19,13 +187,419 @@
     },
     "source": "Bild",
     "author": "Bild.de",
-    "title": "Beachvolleyball in Moskau - WM-Helden Thole/Wickler im Halbfinale",
+    "title": "Kriminalpolizei ermittelt - Mann (46) ertrinkt in Lerchenauer See",
+    "category": "lokales",
+    "description": "Ein 46-Jähriger sprang in den Lerchenauer See – und tauchte nicht mehr auf. Die Wasserwacht konnte nur noch seine Leiche bergen. Foto: Marcel Kusch / dpa",
+    "url": "https://www.bild.de/regional/muenchen/muenchen-aktuell/muenchen-mann-46-ertrinkt-in-lerchenauer-see-64212136.bild.html",
+    "urlToImage": "https://bilder.bild.de/fotos/muenchen-mann-46-ertrinkt-in-lerchenauer-see-200402749-64212178/Bild/1.bild.jpg",
+    "publishedAt": "2019-08-26T11:33:12Z",
+    "content": "München Ein 46-Jähriger sprang zur Abkühlung in den Lerchenauer See und tauchte nicht mehr auf.\r\nNach einiger Zeit machten sich Bekannte von ihm Sorgen und verständigten die Wasserwacht, woraufhin eine Suche eingeleitet wurde.\r\nErst nach zwei Stunden fanden a… [+286 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Bild",
+    "author": "Carina Hunting",
+    "title": "Mehr als 40 Autos demoliert - Millionenschaden bei Luxus-Autohaus",
+    "category": "lokales",
+    "description": "Die Parkplätze vor dem Autohaus Avalon Premium Cars in der Eschborner Straße sind übersäht mit Glasscherben. Hier wütete ein Protz-Hasser!",
+    "url": "https://www.bild.de/regional/frankfurt/frankfurt-aktuell/kronberg-ueber-40-autos-demoliert-millionenschaden-bei-luxus-autohaus-64211496.bild.html",
+    "urlToImage": "https://bilder.bild.de/fotos/kronberg-mehr-als-40-autos-demoliert-millionenschaden-bei-luxus-autohaus-201218933-64211902/Bild/3.bild.jpg",
+    "publishedAt": "2019-08-26T11:33:09Z",
+    "content": "Kronberg Die Parkplätze vor dem Autohaus Avalon Premium Cars in der Eschborner Straße sind übersät mit Glasscherben. Mehr als 40 Luxus-Autos der Marken Land Rover, Aston Martin und Jaguar wurden mutwillig beschädigt, die Scheiben zertrümmert, auf das Blech ei… [+471 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "N-tv.de",
+    "author": "n-tv NACHRICHTEN",
+    "title": "Griezmann die Show gestohlen: Ein 16-Jähriger beeindruckt Superstar Messi",
     "category": "sport",
-    "description": "Unsere Beach-Helden sind wieder in WM-Form. Beim Turnier in Moskau stehen Julius Thole und Clemens Wickler im Halbfinale. Foto: Andrei Golovanov / AP Photo / dpa",
-    "url": "https://www.bild.de/sport/mehr-sport/sport-mix/beachvolleyball-in-moskau-wm-helden-thole-wickler-im-halbfinale-64027804.bild.html",
-    "urlToImage": "https://bilder.bild.de/fotos/beachvolleyball-in-moskau-wm-helden-tholewickler-im-halbfinale-201211835-64028128/Bild/1.bild.jpg",
-    "publishedAt": "2019-08-17T12:52:11Z",
-    "content": "Unsere Beach-Helden sind wieder in WM-Form.\r\nEine Woche nach der EM stehen Julius Thole und Clemens Wickler beim Welttour-Turnier in Moskau im Halbfinale, im Viertelfinale besiegte das Duo Alexander Brouwer/Robert Meeuwsen aus Holland 2:0 (21:16,21:15). Im Ha… [+726 chars]"
+    "description": "Antoine Griezmann ist der überragende Spieler des FC Barcelona beim Kantersieg gegen Sevilla. Nicht nur seine Tore sorgen für Aufmerksamkeit, sondern auch sein Jubel. Überlagert wird die Gala des Weltmeisters von einem Wunderkind - und einem emotionalen Foto …",
+    "url": "https://www.n-tv.de/sport/fussball/Ein-16-Jaehriger-beeindruckt-Superstar-Messi-article21230241.html",
+    "urlToImage": "https://bilder2.n-tv.de/img/incoming/crop21230245/0061325720-cImg_16_9-w1200/imago41870184h.jpg",
+    "publishedAt": "2019-08-26T11:32:36Z",
+    "content": "Antoine Griezmann ist der überragende Spieler des FC Barcelona beim Kantersieg gegen Sevilla. Nicht nur seine Tore sorgen für Aufmerksamkeit, sondern auch sein Jubel. Überlagert wird die Gala des Weltmeisters von einem Wunderkind - und einem emotionalen Foto … [+2899 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Futurezone.at",
+    "author": "futurezone.at",
+    "title": "Sturm auf Area 51: Behörden bereiten den Notstand vor",
+    "category": "digital",
+    "description": "2 Millionen Menschen wollen den Luftwaffenstützpunkt stürmen. Die Behörden rechnen damit, dass bis zu 20.000 Menschen wirklich auftauchen.",
+    "url": "https://futurezone.at/digital-life/sturm-auf-area-51-behoerden-bereiten-den-notstand-vor/400587476",
+    "urlToImage": "https://image.futurezone.at/images/facebook/3726821/46-147811930.jpg",
+    "publishedAt": "2019-08-26T11:32:28Z",
+    "content": "Warnung der Air Force\r\nNun ist das mit solchen Aufrufen bei \r\nFacebook immer so eine Sache. Eine - unverbindliche - Zusage ist schnell geklickt, dahinter muss nicht unbedingt echtes Interesse stecken, nicht selten fallen Teilnehmerzahlen am Ende viel geringer… [+3083 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Welt.de",
+    "author": "",
+    "title": "„Die Schwäche greift über auf den Dienstleistungsektor“",
+    "category": "wirtschaft",
+    "description": "Der ifo-Geschäftsklimaindex ist zum fünften Mal in Folge gefallen. Von der Abkühlung sind mittlerweile „alle Industriebranchen erfasst“, doch es betrifft jetzt auch andere Bereiche. Dazu Dietmar Deffner im Gespräch mit Clemens Fuerst, ifo-Präsident.",
+    "url": "https://www.welt.de/wirtschaft/video199162247/Ifo-Geschaeftsklimaindex-Die-Schwaeche-greift-ueber-auf-den-Dienstleistungssektor.html",
+    "urlToImage": "https://www.welt.de/img/wirtschaft/mobile199162385/6241354337-ci16x9-w1200/ifo-index-jpg.jpg",
+    "publishedAt": "2019-08-26T11:31:57Z",
+    "content": "Die WELT als ePaper: Die vollständige Ausgabe steht Ihnen bereits am Vorabend zur Verfügung so sind Sie immer hochaktuell informiert. Weitere Informationen: http://epaper.welt.de \r\n Der Kurz-Link dieses Artikels lautet: https://www.welt.de/199162247"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "N-tv.de",
+    "author": "n-tv NACHRICHTEN",
+    "title": "US-Präsident besitzt dort Resort: Trump will G7 zu sich nach Miami einladen",
+    "category": "politik",
+    "description": "Im kommenden Jahr übernehmen die USA den Vorsitz der G7. US-Präsident Trump verrät jetzt den voraussichtlichen Ort für den nächsten Gipfel der Wirtschaftsmächte: Miami. Wie praktisch, dass der Immobilienunternehmer dort selbst einen Golfclub besitzt.",
+    "url": "https://www.n-tv.de/politik/Trump-will-G7-zu-sich-nach-Miami-einladen-article21230326.html",
+    "urlToImage": "https://bilder1.n-tv.de/img/incoming/crop21230340/1871326043-cImg_16_9-w1200/RTS2E6EQ.jpg",
+    "publishedAt": "2019-08-26T11:31:33Z",
+    "content": "Im kommenden Jahr übernehmen die USA den Vorsitz der G7. US-Präsident Trump verrät jetzt den voraussichtlichen Ort für den nächsten Gipfel der Wirtschaftsmächte: Miami. Wie praktisch, dass der Immobilienunternehmer dort selbst einen Golfklub besitzt.\r\nDer näc… [+1484 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Tagesschau.de",
+    "author": "tagesschau.de",
+    "title": "Disney+ - mit Loki und Mickey Mouse gegen Netflix",
+    "category": "wirtschaft",
+    "description": "Der Disney-Konzern hat die D23-Fanmesse genutzt, um mehr über seinen Streamingdienst zu verraten. Disney+ setzt auf eine Mischung aus \"Star Wars\", Marvel-Helden und den Klassikern. Von Katharina Wilhelm.",
+    "url": "https://www.tagesschau.de/wirtschaft/disney-plus-101.html",
+    "urlToImage": "https://www.tagesschau.de/multimedia/bilder/disney-messe-105~_v-videowebm.jpg",
+    "publishedAt": "2019-08-25T23:25:44Z",
+    "content": "Der Disney-Konzern hat die D23-Fanmesse genutzt, um mehr über seinen Streamingdienst zu verraten. Disney+ setzt auf eine Mischung aus \"Star Wars\", Marvel-Helden und den Klassikern.\r\nVon Katharina Wilhelm, ARD-Studio Los Angeles\r\n Disney+ - bei dem Namen dürft… [+2049 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "N-tv.de",
+    "author": "n-tv NACHRICHTEN",
+    "title": "\"Was gilt Ihr Wort noch?\": Will stellt Scholz wegen SPD-Vorsitz zur Rede",
+    "category": "politik",
+    "description": "Mit der Beibehaltung des Soli für die reicheren Zahler versucht sich die SPD von der Union abzusetzen - bei Anne Will muss sich Finanzminister Scholz erbitterten Widerspruch von FDP-Chef Lindner anhören. Doch erstmal geht es um Scholz’ 180-Grad-Wende in Sache…",
+    "url": "https://www.n-tv.de/politik/Will-stellt-Scholz-wegen-SPD-Vorsitz-zur-Rede-article21229070.html",
+    "urlToImage": "https://bilder2.n-tv.de/img/incoming/crop21229077/7121328190-cImg_16_9-w1200/annewill-20190825-004.jpg",
+    "publishedAt": "2019-08-25T23:22:23Z",
+    "content": "Mit der Beibehaltung des Soli für die reicheren Zahler versucht sich die SPD von der Union abzusetzen - bei Anne Will muss sich Finanzminister Scholz erbitterten Widerspruch von FDP-Chef Lindner anhören. Doch erstmal geht es um Scholz 180-Grad-Wende in Sachen… [+5703 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Welt.de",
+    "author": "WELT",
+    "title": "Militärflugzeuge bekämpfen jetzt Waldbrände in Brasilien",
+    "category": "politik",
+    "description": "Mehr als 40.000 Soldaten will Brasiliens Präsident Bolsonaro zum Kampf gegen die Feuer schicken. Militärflugzeuge sind nun im Einsatz. Beim G7-Gipfel ist ebenfalls Hilfe beschlossen worden – auch zur Wiederaufforstung.",
+    "url": "https://www.welt.de/politik/article199145563/Regenwald-Militaerflugzeuge-bekaempfen-jetzt-Waldbraende-in-Brasilien.html",
+    "urlToImage": "https://www.welt.de/img/politik/mobile199145571/8051352827-ci16x9-w1200/Braende-im-Amazonas.jpg",
+    "publishedAt": "2019-08-25T23:19:54Z",
+    "content": "In Brasilien sind Militärflugzeuge im Kampf gegen die verheerenden Waldbrände im Regenwald im Einsatz. Ein am Sonntag vom Verteidigungsministerium veröffentlichtes Video zeigt eine Maschine, die Tausende Liter von Wasser über Wäldern des Bundesstaates Rondoni… [+1985 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Bild",
+    "author": "SIMON SCHÜTZ",
+    "title": "Zwischenbilanz zum G7-Gipfel - Das Anfang vom Ende der großen Sieben?",
+    "category": "politik",
+    "description": "Uneinigkeit besonders mit US-Präsident Donald Trump überschattet den Gipfel der reichen Industrienationen (G7) im französischen Biarritz. Foto: Andrew Harnik / AP Photo / dpa",
+    "url": "https://www.bild.de/politik/ausland/politik-ausland/zwischenbilanz-zum-g7-gipfel-in-frankreich-das-anfang-vom-ende-der-grossen-siebe-64203476.bild.html",
+    "urlToImage": "https://bilder.bild.de/fotos/zwischenbilanz-zum-g7-gipfel-in-frankreich-das-anfang-vom-ende-der-grossen-sieben--201218616-64203918/Bild/1.bild.jpg",
+    "publishedAt": "2019-08-25T23:16:19Z",
+    "content": "Ein Tag, wie ihn keiner erwartet hat aber war es ein erfolgreicher? \r\nMit einem brisanten Überraschungscoup auf dem G7-Gipfel will Frankreichs Präsident Emmanuel Macron (41) neue Bewegung in den gefährlichen Iran-Konflikt bringen. \r\nVöllig unerwartet traf Ira… [+5432 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Welt.de",
+    "author": "Frederik Schindler, Frederik Schindler",
+    "title": "Wenn deutsche Behörden mit Nazi-Vokabular argumentieren",
+    "category": "politik",
+    "description": "Menschen, deren Vorfahren wegen des NS-Terrors aus Deutschland flohen, kämpfen häufig vergeblich um die Einbürgerung in der Bundesrepublik. Die Argumentation der Behörden macht sie fassungslos. Hier erzählen Betroffene ihre Geschichte.",
+    "url": "https://www.welt.de/politik/deutschland/plus199028575/Juden-Mit-Nazi-Vokabular-wird-Nachfahren-der-deutsche-Pass-verwehrt.html",
+    "urlToImage": "https://www.welt.de/img/politik/deutschland/mobile199028573/9651351537-ci16x9-w1200-fnov-fpotl-fpi157750653/Zweierkombo-Miranda-Marcus-otto-Marcus.jpg",
+    "publishedAt": "2019-08-25T14:04:12Z",
+    "content": "Martin Oestreicher konnte es nicht fassen, als er den Brief des Bundesverwaltungsamts las. Er ist einer von Hunderten Nachfahren von NS-Verfolgten, deren Einbürgerungsanträge in den letzten Jahren von Deutschland abgelehnt wurden.\r\nIm Oktober 2018 erhielt Oes… [+523 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Faz.net",
+    "author": "loe./dpa",
+    "title": "Deal zwischen Amerika und Japan soll im September stehen",
+    "category": "wirtschaft",
+    "description": "Während sich Amerika inzwischen in einem Handelskrieg mit China befindet, kommen die Verhandlungen mit Japan voran: Die Staaten haben sich „grundsätzlich“ auf ein  bilaterales Handelsabkommen geeinigt.",
+    "url": "https://www.faz.net/aktuell/wirtschaft/deal-zwischen-amerika-und-japan-soll-im-september-stehen-16350969.html",
+    "urlToImage": "https://media1.faz.net/ppmedia/aktuell/988490464/1.6350991/facebook_teaser/der-japanische-premierminister.jpg",
+    "publishedAt": "2019-08-25T14:03:01Z",
+    "content": "Die Vereinigten Staaten und Japan haben sich grundsätzlich auf ein bilaterales Handelsabkommen geeinigt. Das verkündete der amerikanische Präsident Donald Trump zusammen mit Japans Ministerpräsident Shinzo Abe bei einem Treffen am Sonntag auf dem Gipfel der s… [+2038 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Stern.de",
+    "author": "STERN.de",
+    "title": "News von heute: Große Überraschung: Irans Außenminister zu G7-Gipfel angereist",
+    "category": "panorama",
+    "description": "Junges US-Paar stirbt Minuten nach Trauung bei Unfall +++ Nordkorea testet \"supergroßen\" Raketenwerfer +++ Zahlreiche Brände in Griechenland ausgebrochen - Hotels evakuiert +++ News des Tages im stern-Ticker.",
+    "url": "https://www.stern.de/panorama/weltgeschehen/news-von-heute--irans-aussenminister-sarif-ueberraschend-bei-g7-gipfel-in-biarritz-8868528.html",
+    "urlToImage": "https://image.stern.de/8869044/16x9-1200-675/af30dba8e59b18eb786e97d111ff557f/XK/dschawad-sarif-iran.jpg",
+    "publishedAt": "2019-08-25T14:02:14Z",
+    "content": "Die wichtigsten Meldungen im Überblick:\r\n\u003cul\u003e\u003cli\u003eGroße Überraschung: Irans Außenminister zu G7-Gipfel angereist (15.57 Uhr)\r\n\u003c/li\u003e\u003cli\u003eTiger töten zwei Personen in nepalesischem Nationalpark (15.10 Uhr)\r\n\u003c/li\u003e\u003cli\u003eJunges US-Paar stirbt Minuten nach Trauung (12.… [+6199 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Faz.net",
+    "author": "dpa",
+    "title": "Schwerer Sturz bei MotoGP in Silverstone",
+    "category": "sport",
+    "description": "MotoGP-Pilot Andrea Dovizioso kann in Silverstone einem gestürzten Fahrer nicht mehr ausweichen und stürzt. Seine Ducati fängt dabei Feuer. Das Rennen gewinnt der Spanier Alex Rins.",
+    "url": "https://www.faz.net/aktuell/sport/formel-1/motorsport/schwerer-sturz-bei-motogp-dovizioso-im-krankenhaus-16350982.html",
+    "urlToImage": "https://media0.faz.net/ppmedia/aktuell/sport/196773661/1.6350984/facebook_teaser/alex-rins-vorneweg-spanischer.jpg",
+    "publishedAt": "2019-08-25T14:01:48Z",
+    "content": "Ein schwerer Unfall hat bei der Motorrad-WM-Serie das MotoGP-Rennen in Silverstone überschattet. Kurz nach dem Start rutschte der Franzose Fabio Quartararo nach einem Fahrfehler aus. Der Italiener Andrea Dovizioso konnte nicht mehr ausweichen, fuhr mit hoher … [+509 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Der Tagesspiegel",
+    "author": "",
+    "title": "Irans Außenminister Sarif überraschend in Biarritz eingetroffen",
+    "category": "politik",
+    "description": "Irans Außenminister Mohammed Dschawad Sarif ist völlig überraschend in Biarritz eingetroffen. Das bestätigte Teheran am Sonntagnachmittag.",
+    "url": "https://www.tagesspiegel.de/politik/g7-gipfel-in-frankreich-irans-aussenminister-sarif-ueberraschend-in-biarritz-eingetroffen/24940230.html",
+    "urlToImage": "https://www.tagesspiegel.de/images/entwicklungen-in-der-irankrise/24940240/2-format530.jpg",
+    "publishedAt": "2019-08-25T14:01:36Z",
+    "content": "Irans Außenminister Mohammed Dschawad Sarif ist völlig überraschend beim G7-Gipfel im französischen Biarritz eingetroffen. Das bestätigte der Sprecher des Außenministeriums in Teheran, Abbas Mussawi, am Sonntag auf Twitter. \r\nDie Iran-Krise ist eines der Haup… [+76 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Handelsblatt",
+    "author": "Helmut Steuer",
+    "title": "Dänemarks Ministerpräsidentin: Mette Frederiksen meistert ihre erste große internationale Prüfung",
+    "category": "politik",
+    "description": "Die dänische Ministerpräsidentin hat den Grönland-Streit mit US-Präsident Donald Trump beigelegt – vorerst. Eine größere Krise hat sie damit abgewendet.",
+    "url": "https://www.handelsblatt.com/politik/international/daenemarks-ministerpraesidentin-mette-frederiksen-meistert-ihre-erste-grosse-internationale-pruefung-/24934404.html",
+    "urlToImage": "https://www.handelsblatt.com/images/mette-frederiksen/24940208/3-format2003.jpg",
+    "publishedAt": "2019-08-25T14:00:00Z",
+    "content": "Mette FrederiksenDie sozialdemokratische Ministerpräsidentin Dänemarks ist seit Juni im Amt.\r\n(Foto: AP) \r\nStockholm Was für ein Sinneswandel: Noch vor wenigen Tagen habe sich Dänemarks Ministerpräsidentin Mette Frederiksen im Ton vergriffen, als sie das Inte… [+1417 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Diepresse.com",
+    "author": "",
+    "title": "MotoGP: Marquez wie in Spielberg auf den letzten Metern geschlagen",
+    "category": "sport",
+    "description": "Wie zuletzt beim Österreich-Grand-Prix in Spielberg ist MotoGP-Weltmeister und WM-Leader Marc Marquez auch am Sonntag im Großbritannien-Grand-Prix kurz vor dem Ziel abgefangen.",
+    "url": "https://diepresse.com/home/sport/motorsport/5679253/MotoGP_Marquez-wie-in-Spielberg-auf-den-letzten-Metern-geschlagen",
+    "urlToImage": "http://media.diepresse.com/social_diepresse/images/uploads_1200/8/9/5/5679253/DB946094-A278-4DF7-80A8-59F60BD07E9E_v0_l.jpg",
+    "publishedAt": "2019-08-25T14:00:00Z",
+    "content": "Diesmal durfte am Ende Suzuki-Pilot Alex Rins über seinen zweiten Saisonsieg jubeln, nachdem er seinen katalanischen Landsmann auf den letzten Metern auf dem Kurs in Silverstone noch auf Platz zwei verwiesen hatte.\r\nMarquez hatte im Finish mit seinen abbauend… [+2975 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "N-tv.de",
+    "author": "n-tv NACHRICHTEN",
+    "title": "Ein Bankenriese für Europa: Deutsche Bank und UBS träumten von Fusion",
+    "category": "wirtschaft",
+    "description": "Deutsche Bank und die Schweizer UBS liebäugeln lange mit einem Zusammenschluss. Die Idee: Ein europäischer Bankenriese könnte den US-Banken besser die Stirn bieten. Insider berichten, dass sogar eine Vollfusion im Gespräch war. Im Juni stocken die Gespräche a…",
+    "url": "https://www.n-tv.de/wirtschaft/Deutsche-Bank-und-UBS-traeumten-von-Fusion-article21228691.html",
+    "urlToImage": "https://bilder2.n-tv.de/img/incoming/crop21228713/1491325912-cImg_16_9-w1200/122523824.jpg",
+    "publishedAt": "2019-08-25T13:59:23Z",
+    "content": "Deutsche Bank und die Schweizer UBS liebäugeln lange mit einem Zusammenschluss. Die Idee: Ein europäischer Bankenriese könnte den US-Banken besser die Stirn bieten. Insider berichten, dass sogar eine Vollfusion im Gespräch war. Im Juni stocken die Gespräche a… [+2718 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Sueddeutsche.de",
+    "author": "Süddeutsche Zeitung",
+    "title": "Umwelt: Brasilien genehmigt Millionenbetrag für Brandbekämpfung",
+    "category": "wissen",
+    "description": "Brasília (dpa) - Die brasilianische Regierung stellt für die Bekämpfung der Waldbrände in der Amazonasregion zusätzliches Geld zur Verfügung. Das Wirtschaftsministerium habe mit sofortiger Wirkung umgerechnet 8,3 Millionen Euro freigegeben. Damit sei einer An…",
+    "url": "https://www.sueddeutsche.de/wissen/umwelt-brasilien-genehmigt-millionenbetrag-fuer-brandbekaempfung-dpa.urn-newsml-dpa-com-20090101-190825-99-602328",
+    "urlToImage": "https://www.sueddeutsche.de/assets/png/sz-e6f6c02355590e640386e3947d66f8cd.png",
+    "publishedAt": "2019-08-25T13:59:23Z",
+    "content": "25. August 2019, 15:59 Uhr\r\nBrasília (dpa) - Die brasilianische Regierung stellt für die Bekämpfung der Waldbrände in der Amazonasregion zusätzliches Geld zur Verfügung. Das Wirtschaftsministerium habe mit sofortiger Wirkung umgerechnet 8,3 Millionen Euro fre… [+382 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Welt.de",
+    "author": "Denis Fengler, Denis Fengler",
+    "title": "Wasserbomben führen zu Hanfplantage",
+    "category": "lokales",
+    "description": "Eigentlich hatten die Streifenpolizisten eine Wasserbombenattacke am Hamburger Steindamm aufklären wollen. Doch als ihnen ein 59-Jähriger die Wohnungstür öffnete, schlug ihnen starker Marihuanageruch entgegen.",
+    "url": "https://www.welt.de/regionales/hamburg/article199124069/Polizei-Wasserbomben-fuehren-zu-Hanfplantage.html",
+    "urlToImage": "https://www.welt.de/img/regionales/hamburg/mobile199124067/7201352937-ci16x9-w1200/Internationaler-Drogenring-gesprengt.jpg",
+    "publishedAt": "2019-08-25T11:34:24Z",
+    "content": "Falsche Wände, mehr als ein halbes Kilogramm Marihuanablüten, Hanfpflanzen, teils bis zu zwei Meter hoch: Die Polizei hat am Samstagabend eine Marihuanaplantage in einer Wohnung am Steindamm im Hamburger Stadtteil St. Georg ausgehoben. Betrieben wurde die Anl… [+1476 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Focus",
+    "author": "AFP",
+    "title": "Treffen in Biarritz - G7-Gipfel einigt sich auf Hilfe für Amazonas-Brandgebiete",
+    "category": "panorama",
+    "description": "Der G7-Gipfel hat sich auf Hilfe für die Amazonas-Brandgebiete geeinigt. Das teilte der französische Präsident Macron mit.",
+    "url": "https://www.focus.de/panorama/welt/treffen-in-biarritz-g7-gipfel-einigt-sich-auf-hilfe-fuer-amazonas-brandgebiete_id_11067488.html",
+    "urlToImage": "https://p5.focus.de/img/fotos/crop11066671/1782715160-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-190825-99-597118-large-4-3.jpg",
+    "publishedAt": "2019-08-25T11:32:49Z",
+    "content": "Vielen Dank! Ihr Kommentar wurde\r\nabgeschickt.\r\nHier können Sie selbst Artikel verfassen: Bericht schreiben\r\nIm Interesse unserer User behalten wir uns vor, jeden Beitrag\r\nvor der Veröffentlichung zu prüfen. Als registrierter Nutzer werden\r\nSie automatisch pe… [+65 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Taz.de",
+    "author": "Patrick Guyton",
+    "title": "Lokaljournalismus in der Krise: Großer Bogen um die Provinz",
+    "category": "lokales",
+    "description": "Lokalen Medien auf dem Land fehlt der Nachwuchs. Wenig Geld, fehlende Work-Life-Balance und scheinbare Perspektivlosigkeit schrecken ab.",
+    "url": "https://taz.de/Lokaljournalismus-in-der-Krise/!5617142/",
+    "urlToImage": "https://taz.de/picture/3631469/948/Lokaljournalismus_nachwuchs_problem_volontariat.jpeg",
+    "publishedAt": "2019-08-25T11:32:00Z",
+    "content": "Lokaljournalismus in der Krise\r\nLokalen Medien auf dem Land fehlt der Nachwuchs. Wenig Geld, fehlende Work-Life-Balance und scheinbare Perspektivlosigkeit schrecken ab.\r\nDas Gute am Lokaljournalismus: Beim Kaninchenzüchterverein ist es immer schön kuschelig F… [+7394 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Sport.sme.sk",
+    "author": "TASR",
+    "title": "Lewandowski stretlil všetky tri góly svojho tímu. Stále je ?o zlepši?, hovorí",
+    "category": "sport",
+    "description": "Bayern si poradil so Schalke 3:0.",
+    "url": "https://sport.sme.sk/c/22197538/lewandowski-o-svojom-hetriku-proti-schalke.html",
+    "urlToImage": "https://m.smedata.sk/api-media/media/image/sme/7/44/4477007/4477007_1200x.jpeg?rev\u003d3",
+    "publishedAt": "2019-08-25T11:30:53Z",
+    "content": "Bayern si poradil so Schalke 3:0.25. aug 2019 o 13:30 TASR GELSENKIRCHEN. Poský kanonier Robert Lewandowski bol strojcom víazstva Bayernu Mníchov na pôde Schalke 04 (3:0) v 2. kole Bundesligy, ke strelil vetky tri góly úradujúceho nemeckého majstra.\r\nTridsaje… [+2050 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Sport.orf.at",
+    "author": "ORF.at",
+    "title": "Rapids Schick fällt nach Knie-OP mehrere Wochen aus",
+    "category": "sport",
+    "description": "",
+    "url": "https://sport.orf.at/stories/3052621/",
+    "urlToImage": "https://ibs.orf.at/sport?image\u003dhttps%3A%2F%2Forf.at%2Fmojo%2F1_4_1%2Fstoryserver%2Fnews%2Fcommon%2Fimages%2Fog-fallback-sport.png%3Fs%3Dd5964eac26c64596e1797f8eaebfaaf6ecfd66ef",
+    "publishedAt": "2019-08-25T11:30:47Z",
+    "content": "Rapid-Neuzugang Thorsten Schick hat entgegen ersten Befürchtungen keinen Kreuzbandriss erlitten, fällt mit einer Knieverletzung aber dennoch mehrere Wochen aus. Der Steirer zog sich am Samstag im Bundesliga-Spiel gegen den LASK (1:2) eine Meniskus- und Sehnen… [+998 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Spiegel Online",
+    "author": "SPIEGEL ONLINE",
+    "title": "Waldbrände in Griechenland: Fünf Hotels auf Samos evakuiert",
+    "category": "reise",
+    "description": "Auf der Ägäis-Insel Samos mussten mehrere hundert Touristen wegen des Rauchs von Waldbränden zeitweise ihre Hotels verlassen. Auch auf der Peloponnes, Korfu und in Mittelgriechenland bekämpft die Feuerwehr Dutzende Feuer.",
+    "url": "https://www.spiegel.de/reise/europa/waldbraende-in-griechenland-hotels-auf-samos-evakuiert-a-1283562.html",
+    "urlToImage": "https://cdn1.spiegel.de/images/image-1461974-860_poster_16x9-dhqd-1461974.jpg",
+    "publishedAt": "2019-08-25T11:29:15Z",
+    "content": "Sonntag, 25.08.2019  \r\n13:29 Uhr\r\nBei anhaltender Hitze und starken Winden sind in Griechenland am Wochenende Dutzende Brände ausgebrochen. Auf der Touristeninsel Samos wurden am Samstagabend fünf Hotels wegen starken Rauchs vorübergehend evakuiert. Die Feuer… [+1255 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "N-tv.de",
+    "author": "n-tv NACHRICHTEN",
+    "title": "Finanzielle Förderungen geplant: Hausbesitzer sollen mehr fürs Klima tun",
+    "category": "politik",
+    "description": "Neue Fenster, umweltfreundliche Heizungen oder eine bessere Dämmung - gerade Gebäude können einiges zum Klimaschutz beitragen. Besitzer älterer Häuser sollen dafür mehr staatliche Förderung bekommen. Die CSU schlägt obendrein eine staatliche Anleihe mit zwei …",
+    "url": "https://www.n-tv.de/politik/Hausbesitzer-sollen-mehr-fuers-Klima-tun-article21228481.html",
+    "urlToImage": "https://bilder1.n-tv.de/img/incoming/crop21228524/9181324375-cImg_16_9-w1200/123540720.jpg",
+    "publishedAt": "2019-08-25T11:27:53Z",
+    "content": "Neue Fenster, umweltfreundliche Heizungen oder eine bessere Dämmung - gerade Gebäude können einiges zum Klimaschutz beitragen. Besitzer älterer Häuser sollen dafür mehr staatliche Förderung bekommen. Die CSU schlägt obendrein eine staatliche Anleihe mit zwei … [+4683 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Morgenpost.de",
+    "author": "Arnold Hohmann",
+    "title": "ARD-Krimi: Der neue „Polizeiruf“ liefert viele spannende Wendungen",
+    "category": "kultur",
+    "description": "Der neue „Polizeiruf 110“ mit dem deutsch-polnischen Duo Lenski-Raczek ist hart für die Ermittler – und für Zuschauer sehr spannend.",
+    "url": "https://www.morgenpost.de/kultur/tv/article226880393/Der-neue-Polizeiruf-liefert-viele-spannende-Wendungen.html",
+    "urlToImage": "https://img.morgenpost.de/img/tv/crop226880391/656260820-w820-cv16_9-q85/b6f12f60-c5a3-11e9-b1b9-db981c159012.jpg",
+    "publishedAt": "2019-08-25T11:27:40Z",
+    "content": "Essen.. Das kann kein Zufall sein. Zuerst geht die Scheune der polnischen Bauernfamilie Sekula samt Kühen in Flammen auf. Kurz darauf wird der Bauer zu Tode geprügelt. Das ruft die Ermittler Olga Lenski (Maria Simon) und Adam Raczek (Lucas Gregorowicz) von de… [+2347 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Welt.de",
+    "author": "Jan Dams, Inga Michler, Jan Dams, Inga Michler",
+    "title": "Jetzt bekommen Amerikas Konzernchefs das große Zittern",
+    "category": "wirtschaft",
+    "description": "Die amerikanische Wirtschaftselite steht unter Druck – von links wie von rechts. Die Gesellschaft wandelt sich, und auch die erfolgreichen Konzerne müssen sich neu positionieren. Für Deutschland kann das sogar ein Vorteil sein.",
+    "url": "https://www.welt.de/wirtschaft/article199097347/Abkehr-vom-Shareholder-Kapitalismus-US-Konzerne-muessen-sich-neu-positionieren.html",
+    "urlToImage": "https://www.welt.de/img/wirtschaft/mobile199097343/9071350327-ci16x9-w1200/Key-Speakers-At-The-Business-Roundtable-CEO-Innovation-Summit.jpg",
+    "publishedAt": "2019-08-25T10:47:58Z",
+    "content": "Jamie Dimon bekommt Angst. Und mit ihm offensichtlich fast 200 weitere Chefs amerikanischer Konzerne. Das wird sichtbar in einer Erklärung, die der sogenannte Business Roundtable, eine Lobby-Gruppe großer Firmen, in dieser Woche öffentlich machte. Die Gruppe … [+5722 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Bild",
+    "author": "JANINE WOLLBRETT",
+    "title": "Erst Ergebnisse der Obduktion - So starb die schöne Spanierin Gema (†22)",
+    "category": "lokales",
+    "description": "Es muss eine Explosion der Gewalt gewesen sein: Der Mord an Gema R. (†22) aus Mannheim. Der mutmaßliche Mörder ist ihr Ex, liegt im Krankenhaus. BILDplus liegen Details aus der Obduktion vor. *** BILDplus Inhalt ***",
+    "url": "https://www.bild.de/bild-plus/regional/frankfurt/frankfurt-aktuell/bluttat-in-mannheim-gema-starb-durch-mehr-als-40-messerstiche-64190112.bild.html",
+    "urlToImage": "https://bilder.bild.de/fotos/bluttat-in-mannheim-so-starb-gema-201212400-64190106/Bild/4,club\u003dbildplus.bild.jpg",
+    "publishedAt": "2019-08-25T10:45:28Z",
+    "content": "Es muss eine Explosion der Gewalt gewesen sein: Der Mord an Gema R. (22) aus Mannheim. Der mutmaßliche Mörder ist ihr Ex, liegt im Krankenhaus. BILDplus liegen Details aus der Obduktion vor."
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Die Zeit",
+    "author": "ZEIT ONLINE: Ausland -",
+    "title": "G7-Treffen: Staats- und Regierungschefs schließen Rückkehr zu G8 aus",
+    "category": "politik",
+    "description": "Die Chefs der G7-Staaten wollen Russland zunächst nicht in die Gruppe zurückkehren lassen. Frankreichs Präsident Emmanuel Macron soll derweil im Iran-Streit vermitteln.",
+    "url": "https://www.zeit.de/politik/ausland/2019-08/g7-treffen-biarritz-russland-rueckkehr",
+    "urlToImage": "https://img.zeit.de/politik/ausland/2019-08/g7-treffen-biarritz-russland-rueckkehr-ablehnung/wide__1300x731",
+    "publishedAt": "2019-08-25T10:42:00Z",
+    "content": "Die Chefs der G7-Staaten wollen Russland zunächst nicht in ihren Kreis zurückkehren lassen. Die Staats- und Regierungschefs aus den sieben großen westlichen Industriestaaten hätten sich auf ihrem Gipfel in Biarritz zwar einmütig dafür ausgesprochen, \"den Dial… [+1496 chars]"
   },
   {
     "LOG": {
@@ -129,20 +703,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Der Tagesspiegel",
-    "author": "Claus Vetter",
-    "title": "Erklimmen die Eisbären in den Dolomiten den Gipfel?",
-    "category": "sport",
-    "description": "Die Eisbären spielen in Neumarkt um den Dolomiten-Cup. Mehr dazu im Blog, das seit ein paar Tagen übrigens fünf Jahre alt ist.",
-    "url": "https://www.tagesspiegel.de/sport/liveblog/eisbaeren-berlin-in-der-eishockey-saison-2019-20-erklimmen-die-eisbaeren-in-den-dolomiten-den-gipfel/14539956.html",
-    "urlToImage": "https://www.tagesspiegel.de/images/dolomitencup/24902538/2-format530.jpg",
-    "publishedAt": "2019-08-17T12:43:50Z",
-    "content": "Zum Auftakt des diesjährigen Dolomitencups haben die Augsburger Panther gerade mit 3:0 (1:0, 2:0, 0:0) gegen Valerenga Oslo gewonnen. Neuzugang Mitch Callahan erzielte in der Würtharena von Neumarkt alle drei Tore für den Titelverteidiger, der vier der jüngst… [+356 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Stern.de",
     "author": "",
     "title": "Süße Rettungsaktion: Verfressener Waschbär bleibt in Snack-Automat stecken",
@@ -152,20 +712,6 @@
     "urlToImage": "https://image.stern.de/8854262/16x9-1200-675/905c6a5993f4f964429a8e13844d2652/AF/usa-rettung-waschbaer-snackautomat.jpg",
     "publishedAt": "2019-08-17T12:43:20Z",
     "content": "Ungewöhnlicher  Einsatz für die Beamten des Volusia County Sheriff\u0027s Office.\r\nEin Waschbär hat sich in einen Snack-Automaten der Pine Ridge High School in Deltona, Florida verirrt.\r\nAuf Facebook veröffentlicht die Polizei das Video und die Beweisfotos des tie… [+363 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Kriminalität - Berlin: Bis zu 100 Schaulustige: Großfamilien streiten in Neukölln",
-    "category": "panorama",
-    "description": "Berlin (dpa/bb) - Ein Streit zweier arabischstämmiger Großfamilien mit bis zu 100 Schaulustigen hat in Berlin-Neukölln einen Polizeieinsatz ausgelöst und den Verkehr zeitweise lahmgelegt. Dabei soll ein 46-Jähriger mit einem Schnitt oberflächlich am Arm verle…",
-    "url": "https://www.sueddeutsche.de/panorama/kriminalitaet-berlin-bis-zu-100-schaulustige-grossfamilien-streiten-in-neukoelln-dpa.urn-newsml-dpa-com-20090101-190817-99-501007",
-    "urlToImage": "https://www.sueddeutsche.de/assets/png/sz-e6f6c02355590e640386e3947d66f8cd.png",
-    "publishedAt": "2019-08-17T12:41:09Z",
-    "content": "17. August 2019, 14:41 Uhr\r\nBerlin (dpa/bb) - Ein Streit zweier arabischstämmiger Großfamilien mit bis zu 100 Schaulustigen hat in Berlin-Neukölln einen Polizeieinsatz ausgelöst und den Verkehr zeitweise lahmgelegt. Dabei soll ein 46-Jähriger mit einem Schnit… [+851 chars]"
   },
   {
     "LOG": {
@@ -227,34 +773,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Aus dem Stadion von Tim Brack",
-    "title": "Bayern-Zugang Cuisance: Großes Talent, große Ansprüche",
-    "category": "sport",
-    "description": "Bei Gladbach soll er \"quasi eine Stammplatz-Garantie\" gefordert haben - nun trifft Michael Cuisance auf viel Konkurrenz im Münchner Mittelfeld. Sein künftiger Kollege Renato Sanches beschwert sich derweil über zu wenig Spielzeit.",
-    "url": "https://www.sueddeutsche.de/sport/cuisance-wechsel-bayern-1.4566747",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4566750/1200x675?v\u003d1566037025",
-    "publishedAt": "2019-08-17T11:29:56Z",
-    "content": "\u003cul\u003e\u003cli\u003eDer Wechsel von Michael Cuisance von Borussia Mönchengladbach zum FC Bayern ist nun offiziell.\u003c/li\u003e\u003cli\u003eBayern-Sportdirektor Hasan Salihamidzic sagt, der zentrale Mittelfeldspieler sei \"ein großes Talent, das großes Potenzial hat\".\u003c/li\u003e\u003cli\u003eIn Gladbach … [+4750 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Spiegel Online",
-    "author": "SPIEGEL ONLINE",
-    "title": "Vorstoß von Kramp-Karrenbauer: Kretschmer warnt vor Maaßens CDU-Ausschluss",
-    "category": "politik",
-    "description": "Muss Hans-Georg Maaßen die CDU verlassen? Parteichefin Kramp-Karrenbauer bringt das ins Gespräch, Sachsens Ministerpräsident widerspricht: \"Wir schließen niemanden aus, nur weil er unbequem ist.\"",
-    "url": "https://www.spiegel.de/politik/deutschland/cdu-ausschluss-von-hans-georg-maassen-michael-kretschmer-ist-dagegen-a-1282431.html",
-    "urlToImage": "https://cdn1.spiegel.de/images/image-1439015-860_poster_16x9-elkg-1439015.jpg",
-    "publishedAt": "2019-08-17T11:26:08Z",
-    "content": "Samstag, 17.08.2019  \r\n13:26 Uhr\r\nSachsens Ministerpräsident Michael Kretschmer (CDU) lehnt ein mögliches Parteiausschlussverfahren gegen Ex-Verfassungsschutzchef Hans-Georg Maaßen ab. \"Das ist der falsche Weg\", sagte Kretschmer der \"Bild am Sonntag\" (\"BamS\")… [+3306 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Bild",
     "author": "Steffen Meyer",
     "title": "Saarländer wollen Weltrekord aufstellen - Wir schwenken 50 Stunden!",
@@ -264,20 +782,6 @@
     "urlToImage": "https://bilder.bild.de/fotos/ueberherrn-saarlaender-wollen-weltrekord-aufstellen-wir-schwenken-50-stunden--201211790-64026964/Bild/1.bild.jpg",
     "publishedAt": "2019-08-17T11:25:48Z",
     "content": "Überherrn Feuer an, Schwenker drauf, Wette läuft: Am Sender Europa 1 startet die Firma Kunzler einen Weltrekordversuch. Und in was? Na, klar mit dem, was wir Saarländer am besten können: Schwenken!\r\n50 Stunden soll der Schwenker gedreht werden. Veranstalter R… [+547 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Spiegel Online",
-    "author": "SPIEGEL ONLINE",
-    "title": "Norwegen: 21-Jähriger gesteht Angriff auf Moschee bei Oslo",
-    "category": "politik",
-    "description": "Ein schwer bewaffneter Mann drang vor einer Woche in eine Moschee im norwegischen Baerum ein. Nun hat der 21-Jährige laut Polizei den Angriff zugegeben. Zuvor soll er seine Stiefschwester getötet haben.",
-    "url": "https://www.spiegel.de/politik/ausland/norwegen-21-jaehriger-gesteht-angriff-auf-moschee-bei-oslo-a-1282428.html",
-    "urlToImage": "https://cdn1.spiegel.de/images/image-1459705-860_poster_16x9-pwpu-1459705.jpg",
-    "publishedAt": "2019-08-17T11:25:48Z",
-    "content": "Samstag, 17.08.2019  \r\n13:25 Uhr\r\nEine Woche nach dem Angriff auf eine Moschee bei Oslo hat der 21 Jahre alte Tatverdächtige die Attacke zugegeben. Das teilte der Staatsanwalt Pal-Fredrik Hjort Kraby mit. Er habe sich aber nicht förmlich schuldig zu den Vorwü… [+1389 chars]"
   },
   {
     "LOG": {
@@ -298,20 +802,6 @@
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
     "source": "Bild",
-    "author": "JOACHIM DROLL",
-    "title": "Ex-Torjäger bestraft VfL - Ausgerechnet Hinterseer...",
-    "category": "sport",
-    "description": "Diese Niederlage tut richtig weh. Der VfL verliert mit 0:1 beim HSV, vermasselt endgültig den Saisonstart.Ex-Torjäger bestraft Schnarchanfall: Ausgerechnet Hinterseer…Trainer Robin Dutt (54), dem",
-    "url": "https://www.bild.de/sport/fussball/fussball/ex-torjaeger-bestraft-bochumer-schnarchanfall-ausgerechnet-hinterseer-64019196.bild.html",
-    "urlToImage": "https://bilder.bild.de/fotos/ex-torjaeger-bestraft-bochumer-schnarchanfall-ausgerechnet-hinterseer--201211512-64019638/Bild/1.bild.jpg",
-    "publishedAt": "2019-08-16T20:17:13Z",
-    "content": "Diese Niederlage tut richtig weh. Der VfL verliert mit 0:1 beim HSV, vermasselt endgültig den Saisonstart.\r\nEx-Torjäger bestraft Schnarchanfall: Ausgerechnet Hinterseer\r\nTrainer Robin Dutt (54), dem Schiri Dingert nach Abpfiff Gelb zeigte: Da kriegt man eine … [+779 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Bild",
     "author": "Karsten Kehr",
     "title": "*** BILDplus Inhalt *** Rätsel im Dresdner Zoo - Koala-Baby spurlos verschwunden",
     "category": "lokales",
@@ -320,34 +810,6 @@
     "urlToImage": "https://bilder.bild.de/fotos/raetsel-im-dresdner-zoo-koala-baby-spurlos-verschwunden-201211410-64019684/Bild/1,club\u003dbildplus.bild.jpg",
     "publishedAt": "2019-08-16T20:17:01Z",
     "content": "Sydney hat ein Jungtier im Beutel. Voraussichtlich vor vier Tagen kam das 2cm große, nackte Jungtier zur Welt und ist erfolgreich in den Beutel des Koala-Weibchens geklettert, heißt es auf der Zooseite im Internet. Vor wenigen Tagen dann aber der Schock: Das … [+44 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Bild",
-    "author": "Ulli Schauberger",
-    "title": "Lautern - Mit Pokal-Rausch zum 1. Heimsieg?",
-    "category": "sport",
-    "description": "Auf die Pokal-Kür folgt die Liga-Pflicht! Nach dem Jubelrausch beim 2:0-Triumph im DFB-Pokal gegen Mainz kommt der Liga-Alltag. Foto: picture alliance / Pressefoto Ba",
-    "url": "https://www.bild.de/sport/fussball/fussball/lautern-mit-pokal-rausch-zum-1-heimsieg-64019522.bild.html",
-    "urlToImage": "https://bilder.bild.de/fotos/lautern-mit-pokal-rausch-zum-1-heimsieg--201211510-64019632/Bild/1.bild.jpg",
-    "publishedAt": "2019-08-16T20:16:43Z",
-    "content": "Auf die Pokal-Kür folgt die Liga-Pflicht!\r\nDer Jubelrausch von über 40000 beim 2:0-Triumph im DFB-Pokal gegen Mainz ist für Lautern Vergangenheit. Am Sonntag (13 Uhr) kommt Eintracht Braunschweig auf den Betzenberg. Harter Drittliga-Alltag!\r\n\"Man sieht, was m… [+712 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sport1.de",
-    "author": "Sportinformationsdienst",
-    "title": "Rad-Legende Felice Gimondi verstorben",
-    "category": "sport",
-    "description": "Der frühere Tour-de-France-Sieger Felice Gimondi ist im Alter von 76 Jahren gestorben. Das berichten italienische Medien. Gimondi war einer der prägenden Radprofis der 1960er-Jahre und ist bis heute einer von nur sieben Fahrern, die alle drei großen Landesrun…",
-    "url": "https://www.sport1.de/radsport/2019/08/radsport-felice-gimondi-im-alter-von-76-jahren-gestorben",
-    "urlToImage": "https://reshape.sport1.de/unsafe/1200x630/filters:focus(60,43)/https://images.sport1.de/imagix/5991f7ba-c062-11e9-b08e-b8ca3a67761c",
-    "publishedAt": "2019-08-16T20:16:23Z",
-    "content": "Der frühere Tour-de-France-Sieger Felice Gimondi ist im Alter von 76 Jahren gestorben. \r\nDas berichten italienische Medien. Gimondi war einer der prägenden Radprofis der 1960er-Jahre und ist bis heute einer von nur sieben Fahrern, die alle drei großen Landesr… [+222 chars]"
   },
   {
     "LOG": {
@@ -493,20 +955,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Bild",
-    "author": "Jan Arndt",
-    "title": "Dynamos Königstransfer - Löwe lobt Dresden-Fans",
-    "category": "sport",
-    "description": "„Da passiert es nicht mehr ganz so häufig, dass ich einlaufe und eine Gänsehaut habe. Das ist mir in Dresden passiert.“",
-    "url": "https://www.bild.de/sport/fussball/fussball/dynamos-koenigstransfer-loewe-lobt-dresden-fans-64016578.bild.html",
-    "urlToImage": "https://bilder.bild.de/fotos/dynamos-koenigstransfer-loewe-lobt-dresden-fans-201211409-64016650/Bild/2.bild.jpg",
-    "publishedAt": "2019-08-16T20:04:47Z",
-    "content": "Chris Löwe (30) ist in seiner Karriere viel rumgekommen. Dynamos Königstransfer spielte in Dortmund, auf dem Betzenberg in Kaiserslautern, mit Huddersfield in der Premier League...\r\nIch habe schon in vielen großen Stadien gespielt, sagt der Linksverteidiger. … [+1155 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Faz.net",
     "author": "dpa",
     "title": "WM-Vorbereitung: Basketballer starten mit Sieg in Supercup",
@@ -619,20 +1067,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Bild",
-    "author": "ROLAND PALMERT",
-    "title": "Eintracht: Achillessehne gerissen - Warum immer Russ?",
-    "category": "sport",
-    "description": "Kämpft er sich erneut zurück? Das Drama um Frankfurt-Profi Marco Russ (34). Nach der Krebsdiagnose 2016 riss jetzt die Achillessehne. Foto: Witters",
-    "url": "https://www.bild.de/sport/fussball/fussball/eintracht-achillessehne-gerissen-warum-immer-russ-64018624.bild.html",
-    "urlToImage": "https://bilder.bild.de/fotos/eintracht-achillessehne-gerissen-warum-immer-russ--201210601-64018866/Bild/1.bild.jpg",
-    "publishedAt": "2019-08-16T19:42:01Z",
-    "content": "Kämpft er sich erneut zurück?\r\nDas Drama um Frankfurt-Profi Marco Russ (34). In der Europa-League-Quali gegen Vaduz (1:0) zog er sich ohne Einwirkung des Gegners einen Achillessehnenriss im rechten Bein zu. Gestern fuhr er nach München, wo er operiert wird.\r\n… [+1705 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Faz.net",
     "author": "dpa",
     "title": "Piraten überfallen Schiff deutscher Reederei vor Kamerun",
@@ -670,20 +1104,6 @@
     "urlToImage": "https://www.tagesspiegel.de/images/123156225/24913816/2-format530.jpg",
     "publishedAt": "2019-08-16T18:03:32Z",
     "content": "Schiller: Keine konkreten Überlegungen für Börsengang \r\nTrotz des Einstiegs von Investor Lars Windhorst plant Hertha BSC noch nicht den Gang an die Börse. Für einen Börsengang gibt es keine konkreten Überlegungen und erst recht keine konkrete Planung, sagte H… [+1355 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sport1.de",
-    "author": "Sportinformationsdienst",
-    "title": "Teuerstes US-Team aller Zeiten: Nets zum Rekordpreis verkauft",
-    "category": "sport",
-    "description": "Die Brooklyn Nets sind für einen Rekordpreis verkauft worden. Wie die Nets am Freitag mitteilten, übernimmt der taiwanesische Mitbesitzer Joseph Tsai auch jene 51 Prozent des Klubs, die bislang dem russischen Geschäftsmann Michail Prochorow gehörten. Tsai zah…",
-    "url": "https://www.sport1.de/us-sport/nba/2019/08/nba-brooklyn-nets-fuer-rekordpreis-verkauft-an-mitbesitzer-joseph-tsai",
-    "urlToImage": "https://reshape.sport1.de/unsafe/1200x630/filters:focus(50,47)/https://images.sport1.de/imagix/fc419311-c01e-11e5-a4f7-f80f41fc63ce",
-    "publishedAt": "2019-08-16T18:01:54Z",
-    "content": ""
   },
   {
     "LOG": {
@@ -759,20 +1179,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Von Arne Perras, Singapur",
-    "title": "Indien und Pakistan: Tiefe Gräben in der Kaschmir-Krise",
-    "category": "politik",
-    "description": "Die Lage in der Bergregion beschäftigt auf Drängen Pakistans den UN-Sicherheitsrat - was Indien gerne vermieden hätte. Die Kluft zwischen beiden Staaten scheint kaum noch überbrückbar zu sein.",
-    "url": "https://www.sueddeutsche.de/politik/kaschmir-indien-pakistan-1.4565538",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4562550/1200x675?v\u003d1565977792",
-    "publishedAt": "2019-08-16T17:54:19Z",
-    "content": "\u003cul\u003e\u003cli\u003eMit der Lage in der umstrittenen Region Kaschmir wird sich denächst der Sicherheitsrat der Vereinten Nationen befassen.\u003c/li\u003e\u003cli\u003eDas gilt als diplomatischer Erfolg für den pakistanischen Premier Khan.\u003c/li\u003e\u003cli\u003eIndien, das der Region die Autonomierechte … [+4040 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Stern.de",
     "author": "STERN.de",
     "title": "Hertha BSC startet mit Bayern-Schreck Lukebakio in München",
@@ -782,20 +1188,6 @@
     "urlToImage": "",
     "publishedAt": "2019-08-16T17:52:28Z",
     "content": "München - Hertha BSC tritt im Eröffnungsspiel der 57. Bundesligasaison beim FC Bayern München mit Bayern-Schreck Dodi Lukebakio an. Der Rekordeinkauf der Berliner beginnt in der Offensive. Herthas neuer Trainer Ante Covic stellte zudem Kapitän Vedad Ibisevic … [+199 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Justiz - Brandenburg an der Havel: Polizei ermittelt zu Kennzeichenscanner-Gutachten",
-    "category": "panorama",
-    "description": "Potsdam (dpa/bb) - Das Portal Netzpolitik.org hat ein internes Gutachten aus dem Brandenburger Innenministerium veröffentlicht, das die Praxis der Speicherung von Autokennzeichen im Land als unverhältnismäßig und illegal bewertet. Jedes Kraftfahrzeugkennzeich…",
-    "url": "https://www.sueddeutsche.de/panorama/justiz-brandenburg-an-der-havel-polizei-ermittelt-zu-kennzeichenscanner-gutachten-dpa.urn-newsml-dpa-com-20090101-190816-99-493787",
-    "urlToImage": "https://www.sueddeutsche.de/assets/png/sz-e6f6c02355590e640386e3947d66f8cd.png",
-    "publishedAt": "2019-08-16T17:52:16Z",
-    "content": "Potsdam (dpa/bb) - Das Portal Netzpolitik.org hat ein internes Gutachten aus dem Brandenburger Innenministerium veröffentlicht, das die Praxis der Speicherung von Autokennzeichen im Land als unverhältnismäßig und illegal bewertet. Jedes Kraftfahrzeugkennzeich… [+2821 chars]"
   },
   {
     "LOG": {
@@ -843,20 +1235,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Spiegel Online",
-    "author": "SPIEGEL ONLINE",
-    "title": "Weitere Kandidaten für SPD-Vorsitz: Scheer und Lauterbach sammeln nötige Unterstützer",
-    "category": "politik",
-    "description": "Noch ein SPD-Duo nimmt die Nominierungshürde zur Kandidatur für den Parteivorsitz: Nina Scheer und Karl Lauterbach haben nach SPIEGEL-Informationen die Unterstützung von fünf Unterbezirken sicher.",
-    "url": "https://www.spiegel.de/politik/deutschland/spd-karl-lauterbach-und-nina-scheer-als-kandidaten-fuer-parteivorsitz-nominiert-a-1282246.html",
-    "urlToImage": "https://cdn1.spiegel.de/images/image-1450666-860_poster_16x9-jxzj-1450666.jpg",
-    "publishedAt": "2019-08-16T16:05:46Z",
-    "content": "Freitag, 16.08.2019  \r\n18:05 Uhr\r\nDas Rennen um den SPD-Vorsitz hat deutlich an Schwung gewonnen. Nun hat das zweite Bewerberduo die nötigen Unterstützer für die Nominierung gesammelt: Die beiden Bundestagsabgeordneten Nina Scheer und Karl Lauterbach sicherte… [+2533 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Die Zeit",
     "author": "ZEIT ONLINE: Wirtschaft -",
     "title": "Kernkraft: Zahlreiche Atomkraftwerke in der EU laufen offenbar ohne Genehmigung",
@@ -880,20 +1258,6 @@
     "urlToImage": "https://cdn1.spiegel.de/images/image-1414157-860_poster_16x9-hneh-1414157.jpg",
     "publishedAt": "2019-08-16T16:03:00Z",
     "content": "Freitag, 16.08.2019  \r\n18:03 Uhr\r\nDer im Januar beschlossene Kohleausstieg bietet der AfD im Osten ein geeignetes Wahlkampfthema. Offen zweifeln ihre Abgeordneten den vom Menschen verursachten Klimawandel an, folglich sei auch die Abschaltung von Kohlekraftwe… [+2135 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Kaufinteresse an Grönland? Angebliche Trump-Idee polarisiert",
-    "category": "politik",
-    "description": "Will Donald Trump Grönland kaufen? Medienberichten zufolge hat der US-Präsident seine Berater angewiesen, die Möglichkeit eines Kaufes der Arktisinsel zu prüfen. Die angebliche Idee stößt vor allem in Dänemark und Grönland auf Kritik.",
-    "url": "https://www.sueddeutsche.de/politik/kaufinteresse-an-groenland-angebliche-trump-idee-polarisiert-1.4566602",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4566603/1200x675?v\u003d1565971343000",
-    "publishedAt": "2019-08-16T16:02:23Z",
-    "content": "\"Ich war immer der König des Dispos\"\r\nDer Comedian Felix Lobrecht über seine Kindheit in Armut, Jogginghosen in Luxushotels und die Frage, wie man einen Gucci-Pullover richtig wäscht."
   },
   {
     "LOG": {
@@ -1081,20 +1445,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Gratis-Bahnfahrten für Soldaten in Uniform",
-    "category": "politik",
-    "description": "Soldaten, die Uniform tragen, fahren bald gratis mit allen ICE- und IC-Zügen der DB durchs Land. Die Bundeswehr hat sich mit der Deutschen Bahn auf Gratisfahrten für Soldaten in Uniform geeinigt.",
-    "url": "https://www.sueddeutsche.de/politik/gratis-bahnfahrten-fuer-soldaten-in-uniform-1.4566575",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4566576/1200x675?v\u003d1565970166000",
-    "publishedAt": "2019-08-16T15:42:46Z",
-    "content": "\"Ich war immer der König des Dispos\"\r\nDer Comedian Felix Lobrecht über seine Kindheit in Armut, Jogginghosen in Luxushotels und die Frage, wie man einen Gucci-Pullover richtig wäscht."
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Bild",
     "author": "Bild.de",
     "title": "Mehrere Notrufe in Rostock - Betrunkener schießt auf Parkplatz umher",
@@ -1118,20 +1468,6 @@
     "urlToImage": "https://bilder.bild.de/fotos/bayer-leverkusen-bosz-setzt-auf-fans-fuer-den-1-start-sieg-seit-2015-201211294-64013814/Bild/1.bild.jpg",
     "publishedAt": "2019-08-16T15:40:55Z",
     "content": "Diese Bilder hat keiner in Leverkusen vergessen: 2017 wurde der Team-Bus vorm Köln-Derby von tausenden Fans empfangen, Bayer schaffte danach durchs 2:2 die Rettung.\r\nSamstag (15.30 Uhr, Sky live) geht\u0027s gegen Aufsteiger Paderborn um den ersten Liga-Startsieg … [+1006 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Von Anna Ernst",
-    "title": "Sicherheitslücken im Justizvollzug: Flucht über die Empore der Sporthalle",
-    "category": "panorama",
-    "description": "Die JVA Bochum war vor wenigen Jahren als \"Pannenknast\" berüchtigt. Jetzt ist erneut ein Häftling entwichen. Der Fall zeigt: Viele Haftanstalten in Deutschland entsprechen nicht den aktuellen Sicherheitsstandards.",
-    "url": "https://www.sueddeutsche.de/panorama/sicherheitsluecken-im-justizvollzug-flucht-ueber-die-empore-der-sporthalle-1.4565840",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4566534/1200x675?v\u003d1565968978",
-    "publishedAt": "2019-08-16T15:20:29Z",
-    "content": "Die JVA Bochum war vor wenigen Jahren als \"Pannenknast\" berüchtigt. Jetzt ist erneut ein Häftling entwichen. Der Fall zeigt: Viele Haftanstalten in Deutschland entsprechen nicht den aktuellen Sicherheitsstandards. \r\nMit einem selbst gebauten Gestänge ist er a… [+5470 chars]"
   },
   {
     "LOG": {
@@ -1165,20 +1501,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Notfälle - Eisenhüttenstadt: Hilflose Frau in Eisenhüttenstadt verschwunden",
-    "category": "panorama",
-    "description": "Eisenhüttenstadt (dpa/bb) - In Eisenhüttenstadt wird eine 61 Jahre alte Frau vermisst, die dringend medizinische Versorgung benötigt. Die Frau sei vor einem Monat letztmalig in der Glashüttenstraße gesehen worden und leide unter gesundheitlichen Problemen, te…",
-    "url": "https://www.sueddeutsche.de/panorama/notfaelle-eisenhuettenstadt-hilflose-frau-in-eisenhuettenstadt-verschwunden-dpa.urn-newsml-dpa-com-20090101-190816-99-493596",
-    "urlToImage": "https://www.sueddeutsche.de/assets/png/sz-e6f6c02355590e640386e3947d66f8cd.png",
-    "publishedAt": "2019-08-16T15:16:37Z",
-    "content": "16. August 2019, 17:16 Uhr\r\nEisenhüttenstadt (dpa/bb) - In Eisenhüttenstadt wird eine 61 Jahre alte Frau vermisst, die dringend medizinische Versorgung benötigt. Die Frau sei vor einem Monat letztmalig in der Glashüttenstraße gesehen worden und leide unter ge… [+811 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Faz.net",
     "author": "dpa/Reuters",
     "title": "Nach Kanzlerin Merkel: Auch Seehofer für staatlich organisierte Seenotrettung",
@@ -1193,15 +1515,15 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Unfälle - Brandis: Wahlplakat verletzt 80-jährige Radfahrerin",
-    "category": "panorama",
-    "description": "Brandis (dpa/sn) - Ein Wahlplakat hat in Brandis (Landkreis Leipzig) eine Rentnerin erheblich verletzt. Die 80-Jährige war nach Angaben der Polizeidirektion Leipzig von Freitag mit dem Fahrrad unterwegs als ein nicht ordnungsgemäß befestigtes Wahlplakat ihr p…",
-    "url": "https://www.sueddeutsche.de/panorama/unfaelle-brandis-wahlplakat-verletzt-80-jaehrige-radfahrerin-dpa.urn-newsml-dpa-com-20090101-190816-99-493589",
-    "urlToImage": "https://www.sueddeutsche.de/assets/png/sz-e6f6c02355590e640386e3947d66f8cd.png",
-    "publishedAt": "2019-08-16T15:15:17Z",
-    "content": "\"Ich war immer der König des Dispos\"\r\nDer Comedian Felix Lobrecht über seine Kindheit in Armut, Jogginghosen in Luxushotels und die Frage, wie man einen Gucci-Pullover richtig wäscht."
+    "source": "Diepresse.com",
+    "author": "",
+    "title": "Diese fünf Wirtschaftsgeschichten sollten Sie gelesen haben",
+    "category": "wirtschaft",
+    "description": "Diese Woche haben wir im Angebot: Die neue Staatsgläubigkeit der Deutschen, zwei Geschichten rund ums Bargeld sowie die explodierenden Kosten bei Altersteilzeit und im Griechenland-Urlaub.",
+    "url": "https://diepresse.com/home/wirtschaft/economist/5674956/Wochenrueckblick_Diese-fuenf-Wirtschaftsgeschichten-sollten-Sie",
+    "urlToImage": "http://media.diepresse.com/social_diepresse/images/uploads_1200/7/c/c/5674956/0EB59B79-373E-4340-BBE9-A07F687F6A57_v0_h.jpg",
+    "publishedAt": "2019-08-16T15:15:00Z",
+    "content": "Eine kompakte Presse-Economist-Mannschaft hat die vergangenen Tage für Sie die Stellung gehalten. Denn die Ferragosto-Woche erfreut sich nicht nur bei den italienischen Urlaubern großer Beliebtheit. Apropos Urlaub: Wer diesen heuer in Griechenland verbringt, … [+1708 chars]"
   },
   {
     "LOG": {
@@ -1216,20 +1538,6 @@
     "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/02/2/7/3/0/5/8/1/image-1565605154625407-08c0395b674e898f.jpeg",
     "publishedAt": "2019-08-16T15:15:00Z",
     "content": "Inhaltsverzeichnis\r\nEin Klick auf den Download-Link befördert eine 25 Megabyte große CSV-Datei ins Download-Verzeichnis. Ein Doppelklick darauf startet LibreOffice und danach heißt es warten. Der Import dauert nämlich auf einem nicht ganz taufrischen i5 über … [+3754 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Diepresse.com",
-    "author": "",
-    "title": "Diese fünf Wirtschaftsgeschichten sollten Sie gelesen haben",
-    "category": "wirtschaft",
-    "description": "Diese Woche haben wir im Angebot: Die neue Staatsgläubigkeit der Deutschen, zwei Geschichten rund ums Bargeld sowie die explodierenden Kosten bei Altersteilzeit und im Griechenland-Urlaub.",
-    "url": "https://diepresse.com/home/wirtschaft/economist/5674956/Wochenrueckblick_Diese-fuenf-Wirtschaftsgeschichten-sollten-Sie",
-    "urlToImage": "http://media.diepresse.com/social_diepresse/images/uploads_1200/7/c/c/5674956/0EB59B79-373E-4340-BBE9-A07F687F6A57_v0_h.jpg",
-    "publishedAt": "2019-08-16T15:15:00Z",
-    "content": "Eine kompakte Presse-Economist-Mannschaft hat die vergangenen Tage für Sie die Stellung gehalten. Denn die Ferragosto-Woche erfreut sich nicht nur bei den italienischen Urlaubern großer Beliebtheit. Apropos Urlaub: Wer diesen heuer in Griechenland verbringt, … [+1708 chars]"
   },
   {
     "LOG": {
@@ -1258,20 +1566,6 @@
     "urlToImage": "https://www.welt.de/img/gesundheit/mobile198635695/3541356487-ci16x9-w1200/Handystrahlung-jpg.jpg",
     "publishedAt": "2019-08-16T10:36:35Z",
     "content": "Die WELT als ePaper: Die vollständige Ausgabe steht Ihnen bereits am Vorabend zur Verfügung so sind Sie immer hochaktuell informiert. Weitere Informationen: http://epaper.welt.de \r\n Der Kurz-Link dieses Artikels lautet: https://www.welt.de/198634465"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Fußball: Die Höhepunkte in den großen Auslandsligen am Wochenende",
-    "category": "sport",
-    "description": "Berlin (dpa) - In Italien müssen die Fußballfans noch eine Woche auf den Start der Serie A warten, in Spanien, England und Frankreich sind die Favoriten der höchsten Ligen am Wochenende gefordert.",
-    "url": "https://www.sueddeutsche.de/sport/fussball-die-hoehepunkte-in-den-grossen-auslandsligen-am-wochenende-dpa.urn-newsml-dpa-com-20090101-180817-99-587437",
-    "urlToImage": "https://www.sueddeutsche.de/assets/png/sz-e6f6c02355590e640386e3947d66f8cd.png",
-    "publishedAt": "2019-08-16T10:34:46Z",
-    "content": "Berlin (dpa) - In Italien müssen die Fußballfans noch eine Woche auf den Start der Serie A warten, in Spanien, England und Frankreich sind die Favoriten der höchsten Ligen am Wochenende gefordert.Jürgen Klopps FC Liverpool geht nach dem Sieg im europäischen S… [+2231 chars]"
   },
   {
     "LOG": {
@@ -1809,20 +2103,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Rechtsruck in Deutschland? - Ehrenrettung für die Mitte - Süddeutsche Zeitung",
-    "category": "politik",
-    "description": "Eine Reihe von Umfragen scheint zu belegen, dass rechte Gesinnungen in der Mitte der Gesellschaft zunehmen, sogar vor einem Rechtsruck wird gewarnt. Doch Deutschlands Mitte rückt nicht nach rechts. Die Rechten werden lauter und brutaler.",
-    "url": "https://www.sueddeutsche.de/politik/rechtsextremismus-rechtsruck-mitte-gesellschaft-sozialwissenschaften-1.4489983",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4563923/1200x675/mitte3.jpg?v\u003d1565769778",
-    "publishedAt": "2019-08-14T14:34:00Z",
-    "content": "Die Zahl rechter Gewalttaten, etwa Angriffe auf Flüchtlinge und sogar Politiker, ist deutlich gewachsen. Die Ablehnung von Asylbewerbern scheint groß zu sein. Manche Experten warnen deshalb vor einem Rechtsruck in der Mitte der Gesellschaft.\r\nRechte Gesinnung… [+19237 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Spiegel Online",
     "author": "SPIEGEL ONLINE",
     "title": "Weltwirtschaft: Anleihemarkt sendet Rezessionssignal - SPIEGEL ONLINE",
@@ -1937,13 +2217,13 @@
     },
     "source": "Sueddeutsche.de",
     "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Wetter - Stuttgart: Wechselhafter Wochenstart im Südwesten",
-    "category": "panorama",
-    "description": "Stuttgart (dpa/lsw) - Nach Hitze und Gewittern beginnt die neue Woche im Südwesten mit eher wechselhaftem Wetter. Am Montag bleibe es zunächst dicht bewölkt, aber meist trocken, teilte der Deutsche Wetterdienst (DWD) am Sonntag mit. Im Laufe des Nachmittags l…",
-    "url": "https://www.sueddeutsche.de/news/panorama/wetter---stuttgart-wechselhafter-wochenstart-im-suedwesten-dpa.urn-newsml-dpa-com-20090101-190728-99-242360",
+    "title": "Klima - München: Söder: Bahntickets über Mehrwertsteuer-Senkung verbilligen",
+    "category": "wissen",
+    "description": "Berlin (dpa) - Damit mehr Menschen die Bahn nehmen statt zu fliegen, will CSU-Chef Markus Söder die Steuer auf die Tickets deutlich senken oder ganz streichen. Er wolle das Bahnfahren so attraktiv machen, dass Reisende das Flugzeug bei Kurzstrecken nicht mehr…",
+    "url": "https://www.sueddeutsche.de/news/wissen/klima---muenchen-soeder-bahntickets-ueber-mehrwertsteuer-senkung-verbilligen-dpa.urn-newsml-dpa-com-20090101-190728-99-242416",
     "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-28T11:33:20Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - Nach Hitze und Gewittern beginnt die neue Woche im Südwesten mit eher wechselhaftem Wetter. Am Montag bleibe es zunächst dicht bewölkt, aber meist trocken, teilte der Deutsche Wetterdienst (DWD) am Sonntag m… [+484 chars]"
+    "publishedAt": "2019-07-28T11:41:40Z",
+    "content": "Direkt aus dem dpa-Newskanal\r\nBerlin (dpa) - Damit mehr Menschen die Bahn nehmen statt zu fliegen, will CSU-Chef Markus Söder die Steuer auf die Tickets deutlich senken oder ganz streichen. Er wolle das Bahnfahren so attraktiv machen, dass Reisende das Flugze… [+1314 chars]"
   },
   {
     "LOG": {
@@ -1978,28 +2258,14 @@
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
     "source": "Sueddeutsche.de",
-    "author": "Von Stefan Mayr, Stuttgart",
-    "title": "Neue Technik aus Stuttgart: Aussteigen und fertig",
-    "category": "wirtschaft",
-    "description": "Bosch und Daimler tüfteln am Einparken ohne Fahrer: Kunden können vor dem  Parkhaus das Auto verlassen, der Wagen macht den Rest. Die Genehmigung ist da, von 2020 an wollen sie ihr Produkt verkaufen.",
-    "url": "https://www.sueddeutsche.de/wirtschaft/neue-technik-aus-stuttgart-aussteigen-und-fertig-1.4536263",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-23T16:28:41Z",
-    "content": "Bosch und Daimler tüfteln am Einparken ohne Fahrer: Kunden können vor dem Parkhaus das Auto verlassen, der Wagen macht den Rest. Die Genehmigung ist da, von 2020 an wollen sie ihr Produkt verkaufen.\r\nDer Benz und der Bosch-Senor funken miteinander. Einen Mens… [+4234 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
     "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Diesel: Fahrverbote jetzt auch in Berlin",
-    "category": "wirtschaft",
-    "description": "Die Einschränkungen  gelten für Diesel-Pkw der Euro-Norm 5 und schlechter, betroffen sind acht Straßenabschnitte in der Landeshauptstadt. Neben den Fahrverboten sind weitere Maßnahmen geplant.",
-    "url": "https://www.sueddeutsche.de/wirtschaft/diesel-fahrverbote-jetzt-auch-in-berlin-1.4536303",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-23T16:28:37Z",
-    "content": "Die Einschränkungen gelten für Diesel-Pkw der Euro-Norm 5 und schlechter, betroffen sind acht Straßenabschnitte in der Landeshauptstadt. Neben den Fahrverboten sind weitere Maßnahmen geplant.\r\nDieselfahrer werden künftig auch in Berlin eine Reihe von Straßen … [+1566 chars]"
+    "title": "Klima: Söder will Bahntickets über Steuer-Senkung billiger machen",
+    "category": "wissen",
+    "description": "Berlin (dpa) - Damit mehr Menschen die Bahn nehmen statt zu fliegen, will CSU-Chef Markus Söder die Steuer auf die Tickets deutlich senken oder ganz streichen.",
+    "url": "https://www.sueddeutsche.de/news/wissen/klima-soeder-will-bahntickets-ueber-steuer-senkung-billiger-machen-dpa.urn-newsml-dpa-com-20090101-190728-99-242013",
+    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
+    "publishedAt": "2019-07-28T11:05:53Z",
+    "content": "Direkt aus dem dpa-Newskanal\r\nBerlin (dpa) - Damit mehr Menschen die Bahn nehmen statt zu fliegen, will CSU-Chef Markus Söder die Steuer auf die Tickets deutlich senken oder ganz streichen.\r\nEr wolle das Bahnfahren so attraktiv machen, dass Reisende das Flugz… [+1317 chars]"
   },
   {
     "LOG": {
@@ -2019,20 +2285,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Golem.de",
-    "author": "Werner Pluta",
-    "title": "Automated Valet Parking: Daimler und Bosch dürfen autonom parken",
-    "category": "auto",
-    "description": "In Stuttgart können Besucher ohne Begleitung das automatisierte Parken eines Mercedes ausprobieren: Daimler und Bosch haben die Freigabe für das Automated Valet Parking erhalten. ( Parken, Internet )",
-    "url": "https://www.golem.de/news/automated-valet-parking-daimler-und-bosch-duerfen-autonom-parken-1907-142731.html",
-    "urlToImage": "https://www.golem.de/1907/142731-203159-203157_rc.jpg",
-    "publishedAt": "2019-07-23T15:16:00Z",
-    "content": "Kein Kurven mehr durch enge Parkhäuser: Zumindest im Parkhaus des Mercedes-Benz-Museums in Stuttgart ist das in einem Pilotprojekt möglich: Der Automobilkonzern Daimler und der Zulieferer Bosch haben die behördliche Zulassung erhalten, das sogenannte Automate… [+3076 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Urlaubspiraten.de",
     "author": "EckMarc",
     "title": "Refurbished! 1 Woche Gran Canaria im neuen Adults Only Hotel schon für 562€ mit HP",
@@ -2047,15 +2299,15 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Verkehr: Darf ich fahren, wenn die Ampel Dauer-Rot zeigt?",
-    "category": "wirtschaft",
-    "description": "Stuttgart (dpa/tmn) - Diese Situation haben sicherlich schon viele Autofahrer erlebt: Die Ampel ist Rot und bleibt es auch. Selbst nach einigen Minuten erhält man kein grünes Licht. Wann darf man trotzdem losfahren?",
-    "url": "https://www.sueddeutsche.de/news/wirtschaft/verkehr-darf-ich-fahren-wenn-die-ampel-dauer-rot-zeigt-dpa.urn-newsml-dpa-com-20090101-190722-99-161582",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-23T14:47:21Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/tmn) - Diese Situation haben sicherlich schon viele Autofahrer erlebt: Die Ampel ist Rot und bleibt es auch. Selbst nach einigen Minuten erhält man kein grünes Licht. Wann darf man trotzdem losfahren?\r\nGrundsätzlic… [+1434 chars]"
+    "source": "Golem.de",
+    "author": "Werner Pluta",
+    "title": "Automated Valet Parking: Daimler und Bosch dürfen autonom parken",
+    "category": "auto",
+    "description": "In Stuttgart können Besucher ohne Begleitung das automatisierte Parken eines Mercedes ausprobieren: Daimler und Bosch haben die Freigabe für das Automated Valet Parking erhalten. ( Parken, Internet )",
+    "url": "https://www.golem.de/news/automated-valet-parking-daimler-und-bosch-duerfen-autonom-parken-1907-142731.html",
+    "urlToImage": "https://www.golem.de/1907/142731-203159-203157_rc.jpg",
+    "publishedAt": "2019-07-23T15:16:00Z",
+    "content": "Kein Kurven mehr durch enge Parkhäuser: Zumindest im Parkhaus des Mercedes-Benz-Museums in Stuttgart ist das in einem Pilotprojekt möglich: Der Automobilkonzern Daimler und der Zulieferer Bosch haben die behördliche Zulassung erhalten, das sogenannte Automate… [+3076 chars]"
   },
   {
     "LOG": {
@@ -2103,6 +2355,20 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
+    "source": "Sueddeutsche.de",
+    "author": "Süddeutsche.de GmbH, Munich, Germany",
+    "title": "Umwelt: Berlin führt Diesel-Fahrverbote in acht Straßen ein",
+    "category": "wissen",
+    "description": "Berlin (dpa) - Berlin will mit Fahrverboten für ältere Dieselfahrzeuge und mehr Tempo-30-Strecken die Luftqualität in der Stadt verbessern.",
+    "url": "https://www.sueddeutsche.de/news/wissen/umwelt-berlin-fuehrt-diesel-fahrverbote-in-acht-strassen-ein-dpa.urn-newsml-dpa-com-20090101-190723-99-175892",
+    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
+    "publishedAt": "2019-07-23T14:43:45Z",
+    "content": "Direkt aus dem dpa-Newskanal\r\nBerlin (dpa) - Berlin will mit Fahrverboten für ältere Dieselfahrzeuge und mehr Tempo-30-Strecken die Luftqualität in der Stadt verbessern.\r\nDer rot-rot-grüne Senat beschloss die Einführung von Diesel-Fahrverboten für Abschnitte … [+2107 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
     "source": "N-tv.de",
     "author": "n-tv NACHRICHTEN",
     "title": "Acht Innenstadtstraßen sind tabu: Berlin verhängt Diesel-Fahrverbote",
@@ -2112,6 +2378,20 @@
     "urlToImage": "https://bilder4.n-tv.de/img/incoming/crop21162951/8771328864-cImg_16_9-w1200/imago90017810h.jpg",
     "publishedAt": "2019-07-23T14:27:10Z",
     "content": "In Stuttgart, Darmstadt und Hamburg gelten schon Diesel-Fahrverbote, jetzt zieht die Hauptstadt nach. Spätestens Anfang September sind acht Straßen in der Berliner Innenstadt für Diesel-Pkw der Euro-Norm 5 oder schlechter tabu. Ausnahmen sind allerdings vorge… [+1702 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Sueddeutsche.de",
+    "author": "Süddeutsche.de GmbH, Munich, Germany",
+    "title": "Umwelt - Berlin: Berlin führt Diesel-Fahrverbote für sauberere Luft ein",
+    "category": "wissen",
+    "description": "Berlin (dpa/bb) - Berlin will mit Fahrverboten für ältere Dieselfahrzeuge und mehr Tempo-30-Strecken die Luftqualität in der Stadt verbessern. Der rot-rot-grüne Senat beschloss am Dienstag die Einführung von Diesel-Fahrverboten für Abschnitte in acht Straßen,…",
+    "url": "https://www.sueddeutsche.de/news/wissen/umwelt---berlin-berlin-fuehrt-diesel-fahrverbote-fuer-sauberere-luft-ein-dpa.urn-newsml-dpa-com-20090101-190722-99-163396",
+    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
+    "publishedAt": "2019-07-23T14:25:39Z",
+    "content": "Direkt aus dem dpa-Newskanal\r\nBerlin (dpa/bb) - Berlin will mit Fahrverboten für ältere Dieselfahrzeuge und mehr Tempo-30-Strecken die Luftqualität in der Stadt verbessern. Der rot-rot-grüne Senat beschloss am Dienstag die Einführung von Diesel-Fahrverboten f… [+4919 chars]"
   },
   {
     "LOG": {
@@ -2145,20 +2425,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Immobilien: Auf dem Land wird zu viel neu gebaut - in der Stadt zu wenig",
-    "category": "wirtschaft",
-    "description": "Köln (dpa) - Ob Köln oder Stuttgart: In deutschen Metropolen werden einer Studie zufolge viel zu wenige Wohnungen gebaut. So sei der Bedarf an Neubauwohnungen in Köln seit 2016 noch nicht mal zur Hälfte gedeckt worden (46 Prozent), heißt es in der Untersuchun…",
-    "url": "https://www.sueddeutsche.de/news/wirtschaft/immobilien-auf-dem-land-wird-zu-viel-neu-gebaut---in-der-stadt-zu-wenig-dpa.urn-newsml-dpa-com-20090101-190722-99-152112",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-22T17:44:03Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nKöln (dpa) - Ob Köln oder Stuttgart: In deutschen Metropolen werden einer Studie zufolge viel zu wenige Wohnungen gebaut. So sei der Bedarf an Neubauwohnungen in Köln seit 2016 noch nicht mal zur Hälfte gedeckt worden (46 Prozent… [+3150 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Bild",
     "author": "Hagen Stegmüller",
     "title": "Geld und Schmuck geklaut - Falscher TV-Techniker legt Rentner rein",
@@ -2168,20 +2434,6 @@
     "urlToImage": "https://bilder.bild.de/fotos/geld-und-schmuck-geklaut-falscher-tv-techniker-legt-rentner-rein-201189228-63466666/Bild/1.bild.jpg",
     "publishedAt": "2019-07-22T17:09:04Z",
     "content": "Stuttgart Seine Opfer hießen Magdalena (87), Lucretia (82) und Waltraud (88). Als falscher Kabel-TV-Mitarbeiter hat Salim El-M. (29) sieben Rentner in Stuttgart reingelegt, ihnen Geld, Schmuck und die EC-Karte gestohlen. Jetzt wird dem Gladbacher am Landgeric… [+627 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Von Thomas Öchsner",
-    "title": "Wohnungsbau: Neu ist nicht immer gut",
-    "category": "wirtschaft",
-    "description": "Während in den Metropolen zu wenige Wohnungen entstehen, wird auf dem Land häufig zu viel gebaut. Neubaugebiete auf der grünen Wiese hätten auch sonst viele Nachteile, so eine Studie.",
-    "url": "https://www.sueddeutsche.de/wirtschaft/wohnungsbau-neu-ist-nicht-immer-gut-1.4534676",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4535442/1200x675?v\u003d1563803249",
-    "publishedAt": "2019-07-22T16:53:51Z",
-    "content": "Während in den Metropolen zu wenige Wohnungen entstehen, wird auf dem Land häufig zu viel gebaut. Neubaugebiete auf der grünen Wiese hätten auch sonst viele Nachteile, so eine Studie.\r\nWer in Deutschland übers Land fährt, kann sie nicht übersehen: Reihenhäuse… [+3912 chars]"
   },
   {
     "LOG": {
@@ -2229,20 +2481,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Agrar - Stuttgart: Durchschnittliche Zwetschgenernte im Südwesten erwartet",
-    "category": "wirtschaft",
-    "description": "Stuttgart (dpa/lsw) - In diesem Jahr dürften die Obstbauern aus Baden-Württemberg zwischen 13 000 und 14 000 Tonnen Zwetschgen an den Mann bringen. Zu dieser Einschätzung kommt der Genossenschaftsverband im Südwesten. In einer am Montag veröffentlichten Mitte…",
-    "url": "https://www.sueddeutsche.de/news/wirtschaft/agrar---stuttgart-durchschnittliche-zwetschgenernte-im-suedwesten-erwartet-dpa.urn-newsml-dpa-com-20090101-190722-99-162993",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-22T16:27:24Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - In diesem Jahr dürften die Obstbauern aus Baden-Württemberg zwischen 13 000 und 14 000 Tonnen Zwetschgen an den Mann bringen. Zu dieser Einschätzung kommt der Genossenschaftsverband im Südwesten. In einer am… [+672 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Faz.net",
     "author": "Rüdiger Soldt",
     "title": "Baden-Württemberg: Landtagsausschluss von AfD-Politikern laut Gericht rechtens",
@@ -2280,34 +2518,6 @@
     "urlToImage": "https://www.wiwo.de/images/zeitung-staatsanwalt-will-wiedeking-anklagen/24686656/2-format11240.jpg",
     "publishedAt": "2019-07-22T15:23:26Z",
     "content": "Am Ende strömt nicht nur der Regen, auch Tränen fließen: Als Wendelin Wiedeking am 23. Juli 2009 nach 17 Jahren als Porsche-Chef zurücktritt, liefert das Wetter die passende Kulisse im Innenhof des Stammwerks in Stuttgart-Zuffenhausen. Dem damals 56-jährigen … [+6179 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Notfälle - Stuttgart: Boot kentert auf Stuttgarter See: Kinder stürzen ins Wasser",
-    "category": "panorama",
-    "description": "Stuttgart (dpa/lsw) - Bei einem Schulausflug sind in Stuttgart sechs Kinder mit einem Boot gekentert. Zwei 12 Jahre und 13 Jahre alte Mädchen wurden am Montag vorsorglich in eine Klinik gebracht, wie die Polizei mitteilte. Das jüngere Mädchen hatte sich einer…",
-    "url": "https://www.sueddeutsche.de/news/panorama/notfaelle---stuttgart-boot-kentert-auf-stuttgarter-see-kinder-stuerzen-ins-wasser-dpa.urn-newsml-dpa-com-20090101-190722-99-162227",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-22T15:18:10Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - Bei einem Schulausflug sind in Stuttgart sechs Kinder mit einem Boot gekentert. Zwei 12 Jahre und 13 Jahre alte Mädchen wurden am Montag vorsorglich in eine Klinik gebracht, wie die Polizei mitteilte. Das jü… [+580 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Mobilität: TÜV und Dekra bremsen E-Autos aus",
-    "category": "wirtschaft",
-    "description": "Zu kleiner Fußraum, zu wenig \"Kniefreiheit\": Weil ihre Rückbank für den Prüfer zu eng ist, bekommen etliche  Elektrofahrzeuge keine Zulassung für Führerscheinprüfungen. Fahrschulen protestieren.",
-    "url": "https://www.sueddeutsche.de/wirtschaft/mobilitaet-tuev-und-dekra-bremsen-e-autos-aus-1.4533468",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4533918/1200x675?v\u003d1563721531",
-    "publishedAt": "2019-07-21T16:51:51Z",
-    "content": "Zu kleiner Fußraum, zu wenig \"Kniefreiheit\": Weil ihre Rückbank für den Prüfer zu eng ist, bekommen etliche Elektrofahrzeuge keine Zulassung für Führerscheinprüfungen. Fahrschulen protestieren.\r\nRainer Zeltwanger, 62, ist waschechter Schwabe. Er mag Menschen … [+7840 chars]"
   },
   {
     "LOG": {
@@ -2397,20 +2607,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Parteien - Stuttgart: CDU-Frauen wollen mehr Einfluss, Hoffnungen auf Eisenmann",
-    "category": "politik",
-    "description": "Urbach (dpa/lsw) - Die Frauen in der baden-württembergischen CDU fordern mehr interne Mitsprache und größere Chancen auf politische Mandate in den Parlamenten. Das wurde am Samstag beim Parteitag der Frauen Union in Urbach (Rems-Murr-Kreis) abermals deutlich.…",
-    "url": "https://www.sueddeutsche.de/news/politik/parteien---stuttgart-cdu-frauen-wollen-mehr-einfluss-hoffnungen-auf-eisenmann-dpa.urn-newsml-dpa-com-20090101-190720-99-137901",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-20T17:39:23Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nUrbach (dpa/lsw) - Die Frauen in der baden-württembergischen CDU fordern mehr interne Mitsprache und größere Chancen auf politische Mandate in den Parlamenten. Das wurde am Samstag beim Parteitag der Frauen Union in Urbach (Rems-… [+3450 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Der Tagesspiegel",
     "author": "Bernhard Schulz",
     "title": "Das Wissen der Stammesältesten",
@@ -2425,20 +2621,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Parteien - Stuttgart: SPD beendet Aufarbeitung des Datenskandals, Fragen bleiben",
-    "category": "politik",
-    "description": "Stuttgart (dpa/lsw) - Die baden-württembergische SPD hat die Aufarbeitung des internen Datenskandals für abgeschlossen erklärt. Eine parteiinterne Kommission legte dem Vorstand am Samstag einen Abschlussbericht vor. Nicht beantwortet wird darin die zentrale F…",
-    "url": "https://www.sueddeutsche.de/news/politik/parteien---stuttgart-spd-beendet-aufarbeitung-des-datenskandals-fragen-bleiben-dpa.urn-newsml-dpa-com-20090101-190720-99-138411",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-20T13:12:57Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - Die baden-württembergische SPD hat die Aufarbeitung des internen Datenskandals für abgeschlossen erklärt. Eine parteiinterne Kommission legte dem Vorstand am Samstag einen Abschlussbericht vor. Nicht beantwo… [+1660 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Urlaubspiraten.de",
     "author": "-Charly-",
     "title": "Bester Spätsommer-Deal UNTER 400€!!! 1 Woche Sonne pur in Bulgarien mit All Inclusive",
@@ -2448,20 +2630,6 @@
     "urlToImage": "https://thumb2.holidaypirates.com/k3ihv6JnGUHqheOoJDe8F6m8Kxc\u003d/1200x675/https://media.mv.urlaubspiraten.de/images/2018/05/5b0287c8dc9fb644352693rfwi06jv.jpg",
     "publishedAt": "2019-07-20T12:33:00Z",
     "content": "Ahoi Piraten,\r\nmit ´nem Cocktail in der Hand am Pool chillen, danach den Sonnenuntergang am traumhaft langen Beach genießen und den Tag bei ner fetten Party im Club ausklingen lassen! Das klingt doch nach dem perfekten Sommerurlaub, oder? Piraten, wir haben d… [+2384 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Parteien - Stuttgart: Susanne Wetterich führt Frauen Union in Baden-Württemberg",
-    "category": "politik",
-    "description": "Urbach (dpa/lsw) - Die gelernte Journalistin Susanne Wetterich ist neue Vorsitzende der Frauen Union in Baden-Württemberg. Die 63-Jährige setzte sich am Samstag in Urbach (Rems-Murr-Kreis) in einer Kampfabstimmung gegen Wirtschaftsstaatssekretärin Katrin Schü…",
-    "url": "https://www.sueddeutsche.de/news/politik/parteien---stuttgart-susanne-wetterich-fuehrt-frauen-union-in-baden-wuerttemberg-dpa.urn-newsml-dpa-com-20090101-190720-99-137901",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-20T12:09:49Z",
-    "content": "Pack die Sonnenbrille ein\r\nDie SZ-Redaktion empfiehlt die beste Lektüre für Strand, Berg und Balkon: Achtzehn Reisen im Kopf - unter anderem nach Istanbul und ins politisch leidgeprüfte Amerika."
   },
   {
     "LOG": {
@@ -2496,14 +2664,14 @@
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
     "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Grundrechte: Protest gegen Polizeigesetz",
-    "category": "politik",
-    "description": "Mehr auf SZ.de",
-    "url": "https://www.sueddeutsche.de/politik/grundrechte-protest-gegen-polizeigesetz-1.4524405",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-14T16:28:17Z",
-    "content": "Bei einer Demonstration gegen eine Verschärfung des baden-württembergischen Polizeigesetzes in Stuttgart ist es am Samstag zu Tumulten gekommen, bei denen auch Polizisten verletzt wurden. Knapp 1000 Menschen hätten demonstriert, die meisten von ihnen friedlic… [+564 chars]"
+    "author": "Von Jan-Martin Wiarda",
+    "title": "Wissenschaft: Cocktailstunde auf dem Campus",
+    "category": "wissen",
+    "description": "Am Freitag ist das Finale der milliardenschweren Exzellenzstrategie. Welche Unis dürfen Siege feiern?",
+    "url": "https://www.sueddeutsche.de/bildung/wissenschaft-cocktailstunde-auf-dem-campus-1.4522919",
+    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4523114/1200x675?v\u003d1562949049",
+    "publishedAt": "2019-07-14T16:28:29Z",
+    "content": "Am Freitag ist das Finale der milliardenschweren Exzellenzstrategie. Welche Unis dürfen Siege feiern?\r\nWolfram Ressel weiß genau, was er am Freitag um 16 Uhr macht. Er wird im Beach-Club stehen, auf der Sandfläche, die Studenten diesen Sommer mitten auf dem C… [+4651 chars]"
   },
   {
     "LOG": {
@@ -2537,20 +2705,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Parteien - Heilbronn: Die FDP in Baden-Württemberg",
-    "category": "politik",
-    "description": "Stuttgart (dpa/lsw) - Die FDP sieht Baden-Württemberg als ihr Stammland an. Denn die Vorgängerpartei, die Demokratische Volkspartei (DVP), wurde 1946 in Stuttgart gegründet. Sie ging Anfang der 1950er-Jahre in den FDP-Landesverband Baden-Württemberg über. Mit…",
-    "url": "https://www.sueddeutsche.de/news/politik/parteien---heilbronn-die-fdp-in-baden-wuerttemberg-dpa.urn-newsml-dpa-com-20090101-190713-99-42534",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-13T12:48:49Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - Die FDP sieht Baden-Württemberg als ihr Stammland an. Denn die Vorgängerpartei, die Demokratische Volkspartei (DVP), wurde 1946 in Stuttgart gegründet. Sie ging Anfang der 1950er-Jahre in den FDP-Landesverba… [+704 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Faz.net",
     "author": "sid",
     "title": "Titel in Rio: Was machen die Weltmeister von 2014 heute?",
@@ -2560,20 +2714,6 @@
     "urlToImage": "https://media0.faz.net/ppmedia/aktuell/1266782462/1.6281588/facebook_teaser/den-abend-des-titelgewinns.jpg",
     "publishedAt": "2019-07-13T12:33:46Z",
     "content": "Diesen Samstag vor fünf Jahren erkämpfte sich die deutsche Nationalmannschaft in einem packenden Finale gegen Argentinien den WM-Titel. Während des Turniers spielte sich die Mannschaft in die Herzen der Fans das 7:1 gegen Gastgeber Brasilien ist bis heute unv… [+4982 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Kirche - Stuttgart: Neuer Weihbischof der Diözese Rottenburg-Stuttgart",
-    "category": "panorama",
-    "description": "Rottenburg/Stuttgart (dpa/lsw) - Gerhard Schneider (50) ist neuer Weihbischof der Diözese Rottenburg-Stuttgart. Bischof Gebhard Fürst vollzog die symbolische Handauflegung bei einem Gottesdienst in der Stuttgarter Domkirche St. Eberhard am Samstag.",
-    "url": "https://www.sueddeutsche.de/news/panorama/kirche---stuttgart-neuer-weihbischof-der-dioezese-rottenburg-stuttgart-dpa.urn-newsml-dpa-com-20090101-190713-99-42680",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-13T10:54:42Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nRottenburg/Stuttgart (dpa/lsw) - Gerhard Schneider (50) ist neuer Weihbischof der Diözese Rottenburg-Stuttgart. Bischof Gebhard Fürst vollzog die symbolische Handauflegung bei einem Gottesdienst in der Stuttgarter Domkirche St. E… [+1271 chars]"
   },
   {
     "LOG": {
@@ -2637,20 +2777,6 @@
     },
     "source": "Sueddeutsche.de",
     "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Parteien - Fellbach: FDP will schnell zurück an die Macht: Parteitag in Heilbronn",
-    "category": "politik",
-    "description": "Stuttgart (dpa/lsw) - Die baden-württembergische FDP will so schnell wie möglich wieder Regierungsverantwortung übernehmen. Man sei grundsätzlich zu einer Deutschlandkoalition mit CDU und SPD bereit, sollte die grün-schwarze Koalition zerbrechen, sagte FDP-Fr…",
-    "url": "https://www.sueddeutsche.de/news/politik/parteien---fellbach-fdp-will-schnell-zurueck-an-die-macht-parteitag-in-heilbronn-dpa.urn-newsml-dpa-com-20090101-190712-99-36937",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-12T23:02:00Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - Die baden-württembergische FDP will so schnell wie möglich wieder Regierungsverantwortung übernehmen. Man sei grundsätzlich zu einer Deutschlandkoalition mit CDU und SPD bereit, sollte die grün-schwarze Koal… [+606 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
     "title": "Luftverkehr - Berlin: Wegen Unwetter: Zwölf Flüge in Berlin-Tegel gestrichen",
     "category": "wirtschaft",
     "description": "Berlin (dpa/bb) - Wegen Unwettern sind am Freitagabend am Berliner Flughafen Tegel zwölf innerdeutsche Flüge gestrichen worden. Es handele sich um Flüge nach Frankfurt am Main, München, Köln/Bonn und Stuttgart, sagte ein Sprecher der Flughafengesellschaft Ber…",
@@ -2679,13 +2805,13 @@
     },
     "source": "Sueddeutsche.de",
     "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Fußball - Windischgarsten: Abdullahi im Union-Trainingslager eingetroffen",
-    "category": "sport",
-    "description": "Windischgarsten (dpa) - Suleiman Abdullahi ist mit einigen Tagen Verspätung im Trainingslager des Fußball-Bundesligisten 1. FC Union Berlin eingetroffen. Der Stürmer, der in der bisherigen knapp zwei Wochen dauernden Vorbereitung noch nicht eine einzige Sekun…",
-    "url": "https://www.sueddeutsche.de/news/sport/fussball---windischgarsten-abdullahi-im-union-trainingslager-eingetroffen-dpa.urn-newsml-dpa-com-20090101-190711-99-21491",
+    "title": "Naturschutz - Stuttgart: FDP äußert große Kritik am Volksbegehren für den Artenschutz",
+    "category": "wissen",
+    "description": "Stuttgart (dpa/lsw) - Die FDP im Landtag äußert deutliche Kritik am geplanten Volksbegehren für den Artenschutz. Der Abgeordnete Klaus Hoher sprach in der \"Schwäbischen Zeitung\" (Freitag) von \"massiven Eingriffen ins Eigentumsrecht, ins Recht auf freie Berufs…",
+    "url": "https://www.sueddeutsche.de/news/wissen/naturschutz---stuttgart-fdp-aeussert-grosse-kritik-am-volksbegehren-fuer-den-artenschutz-dpa.urn-newsml-dpa-com-20090101-190711-99-21582",
     "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-11T15:31:28Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nWindischgarsten (dpa) - Suleiman Abdullahi ist mit einigen Tagen Verspätung im Trainingslager des Fußball-Bundesligisten 1. FC Union Berlin eingetroffen. Der Stürmer, der in der bisherigen knapp zwei Wochen dauernden Vorbereitung… [+1495 chars]"
+    "publishedAt": "2019-07-11T15:32:04Z",
+    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - Die FDP im Landtag äußert deutliche Kritik am geplanten Volksbegehren für den Artenschutz. Der Abgeordnete Klaus Hoher sprach in der \"Schwäbischen Zeitung\" (Freitag) von \"massiven Eingriffen ins Eigentumsrec… [+1326 chars]"
   },
   {
     "LOG": {
@@ -2700,20 +2826,6 @@
     "urlToImage": "https://cdn1.spiegel.de/images/image-1448535-860_poster_16x9-dnnv-1448535.jpg",
     "publishedAt": "2019-07-11T15:30:00Z",
     "content": "hier finden Sie die wichtigsten Nachrichten des Tages, die beliebtesten Geschichten von SPIEGEL+ und Tipps für Ihren Feierabend.\r\nDas Thema des Tages: So teuer ist Wohnen geworden\r\nSie haben eine Eigentumswohnung in München? \"Glückwunsch!\", würde mein Kollege… [+4997 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Extremismus - Stuttgart: Strobl fordert konsequentes Vorgehen gegen Rechtsextremisten",
-    "category": "politik",
-    "description": "Stuttgart (dpa/lsw) - Baden-Württembergs Innenminister Thomas Strobl (CDU) hat vor einem Nachlassen im Kampf gegen die rechtsextremistische Identitäre Bewegung (IB) gewarnt. Sie sei hochgefährlich, sagte Strobl am Donnerstag in Stuttgart. Sie spreche vor alle…",
-    "url": "https://www.sueddeutsche.de/news/politik/extremismus---stuttgart-strobl-fordert-konsequentes-vorgehen-gegen-rechtsextremisten-dpa.urn-newsml-dpa-com-20090101-190711-99-21262",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-11T15:24:45Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - Baden-Württembergs Innenminister Thomas Strobl (CDU) hat vor einem Nachlassen im Kampf gegen die rechtsextremistische Identitäre Bewegung (IB) gewarnt. Sie sei hochgefährlich, sagte Strobl am Donnerstag in S… [+1112 chars]"
   },
   {
     "LOG": {
@@ -2775,62 +2887,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Kommunen - Heidelberg: Viel Solar: Kommunen schnüren Klimaschutz-Pakete",
-    "category": "politik",
-    "description": "Stuttgart (dpa/lsw) - Grüner soll es werden und leiser, sauberer, nachhaltiger, mehr von diesem und weniger von jenem - getrieben nicht zuletzt auch durch die \"Fridays-for-Future\"-Bewegung schnüren immer mehr Großstädte in Baden-Württemberg millionenschwere P…",
-    "url": "https://www.sueddeutsche.de/news/politik/kommunen---heidelberg-viel-solar-kommunen-schnueren-klimaschutz-pakete-dpa.urn-newsml-dpa-com-20090101-190711-99-11075",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-11T12:12:14Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - Grüner soll es werden und leiser, sauberer, nachhaltiger, mehr von diesem und weniger von jenem - getrieben nicht zuletzt auch durch die \"Fridays-for-Future\"-Bewegung schnüren immer mehr Großstädte in Baden-… [+4527 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Kommunen - Stuttgart: Mehr Grün, mehr Bahn: Millionen-Paket gegen Klimawandel",
-    "category": "politik",
-    "description": "Stuttgart (dpa/lsw) - Die Stadt Stuttgart will den Klimaschutz in der schwäbischen Metropole mit einem millionenschweren Paket aus alten Forderungen und neuen Vorgaben verbessern. Ziel sei es, die Energie- und auch die Verkehrswende deutlich schneller zu gest…",
-    "url": "https://www.sueddeutsche.de/news/politik/kommunen---stuttgart-mehr-gruen-mehr-bahn-millionen-paket-gegen-klimawandel-dpa.urn-newsml-dpa-com-20090101-190711-99-16970",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-11T11:51:30Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa/lsw) - Die Stadt Stuttgart will den Klimaschutz in der schwäbischen Metropole mit einem millionenschweren Paket aus alten Forderungen und neuen Vorgaben verbessern. Ziel sei es, die Energie- und auch die Verkehrswe… [+1307 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Fußball - Stuttgart: Mehrere Kandidaten für Vorstandsvorsitz beim VfB Stuttgart",
-    "category": "sport",
-    "description": "Stuttgart (dpa) - Auf der Suche nach einem Vorstandsvorsitzenden befindet sich der Fußball-Zweitligist VfB Stuttgart in Gesprächen mit mehreren Kandidaten. \"Wir reden mit verschiedenen Leuten\", sagte Präsident Wolfgang Dietrich der Deutschen Presse-Agentur zu…",
-    "url": "https://www.sueddeutsche.de/news/sport/fussball---stuttgart-mehrere-kandidaten-fuer-vorstandsvorsitz-beim-vfb-stuttgart-dpa.urn-newsml-dpa-com-20090101-190711-99-16972",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-11T11:44:45Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nStuttgart (dpa) - Auf der Suche nach einem Vorstandsvorsitzenden befindet sich der Fußball-Zweitligist VfB Stuttgart in Gesprächen mit mehreren Kandidaten. \"Wir reden mit verschiedenen Leuten\", sagte Präsident Wolfgang Dietrich d… [+670 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Kommunen - Tübingen: Bosch baut Zentrum für Künstliche Intelligenz in Tübingen",
-    "category": "politik",
-    "description": "Tübingen (dpa/lsw) - Der Autozulieferer Bosch plant ein Entwicklungszentrum für Künstliche Intelligenz (KI) in Tübingen. Das Zentrum solle 700 Arbeitsplätze schaffen, sagte Oberbürgermeister Boris Palmer (Grüne) am Mittwoch. Der Baubeginn ist demnach für 2020…",
-    "url": "https://www.sueddeutsche.de/news/politik/kommunen---tuebingen-bosch-baut-zentrum-fuer-kuenstliche-intelligenz-in-tuebingen-dpa.urn-newsml-dpa-com-20090101-190710-99-07241",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-10T18:03:00Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nTübingen (dpa/lsw) - Der Autozulieferer Bosch plant ein Entwicklungszentrum für Künstliche Intelligenz (KI) in Tübingen. Das Zentrum solle 700 Arbeitsplätze schaffen, sagte Oberbürgermeister Boris Palmer (Grüne) am Mittwoch. Der … [+745 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Der Tagesspiegel",
     "author": "Andrea Dernbach",
     "title": "Kommunalpolitiker zeigen, dass Lübcke kein Einzelfall war",
@@ -2875,20 +2931,6 @@
     },
     "source": "Sueddeutsche.de",
     "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Kommunen - Tübingen: Bosch baut KI-Zentrum in Tübingen",
-    "category": "politik",
-    "description": "Tübingen (dpa/lsw) - Der Autozulieferer Bosch baut nach Angaben der Stadt ein Entwicklungszentrum für Künstliche Intelligenz (KI) in Tübingen. Das Zentrum solle 700 Arbeitsplätze schaffen, sagte Oberbürgermeister Boris Palmer (Grüne) am Mittwoch. Der Baubegin…",
-    "url": "https://www.sueddeutsche.de/news/politik/kommunen---tuebingen-bosch-baut-ki-zentrum-in-tuebingen-dpa.urn-newsml-dpa-com-20090101-190710-99-07241",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-10T16:55:06Z",
-    "content": "\"Sie können dich immer noch mehr quälen\"\r\n\"House of God\" beschreibt, wie aus idealistischen Ärzten zynische Wracks werden, die abstumpfen, überfordert und beziehungsunfähig sind. Das Werk ist 40 Jahre alt - und aktueller denn je."
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
     "title": "Hertzkammer: Leid und Leidenschaft",
     "category": "kultur",
     "description": "Schauspieler Leon Haller legt beim Rathaus-Clubbing auf",
@@ -2896,20 +2938,6 @@
     "urlToImage": "https://media-cdn.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
     "publishedAt": "2019-07-10T16:49:39Z",
     "content": "Schauspieler Leon Haller legt beim Rathaus-Clubbing auf\r\nÜber fehlende Auslastung wird sich Leon Haller kommendes Wochenende eher nicht beklagen. Am Freitag gibt er am Schauspiel Stuttgart den Platonow in Tschechows gleichnamiger Komödie. Am Samstag legt er i… [+2174 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Von Johannes Kirchmeier",
-    "title": "Zweite Liga: Rommé statt Schafkopf",
-    "category": "sport",
-    "description": "\"Wenn wir es gut machen, wecken wir Begehrlichkeiten\": Jahn Regensburg startet nach massiven Transferaktivitäten ins dritte  Zweitligajahr nacheinander.",
-    "url": "https://www.sueddeutsche.de/sport/zweite-liga-romme-statt-schafkopf-1.4519970",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/image/sz.1.4520305/1200x675?v\u003d1562775162",
-    "publishedAt": "2019-07-10T16:49:21Z",
-    "content": "\"Wenn wir es gut machen, wecken wir Begehrlichkeiten\": Jahn Regensburg startet nach massiven Transferaktivitäten ins dritte Zweitligajahr nacheinander.\r\nAls Benedikt Saller beim Trainingsauftakt vor zwei Wochen um sich schaute, da freute er sich, dass ein paa… [+4894 chars]"
   },
   {
     "LOG": {
@@ -3027,20 +3055,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Sueddeutsche.de",
-    "author": "Süddeutsche.de GmbH, Munich, Germany",
-    "title": "Tennis: Favoriten Federer, Nadal und Barty im Wimbledon-Achtelfinale",
-    "category": "sport",
-    "description": "London (dpa) - Der achtmalige Wimbledonsieger Roger Federer sowie die French-Open-Gewinner Rafael Nadal und Ashleigh Barty sind problemlos ins Achtelfinale eingezogen. Der Schweizer Federer gewann mit 7:5, 6:2, 7:6 (7:4) gegen den französischen Tennisprofi Lu…",
-    "url": "https://www.sueddeutsche.de/news/sport/tennis-favoriten-federer-nadal-und-barty-im-wimbledon-achtelfinale-dpa.urn-newsml-dpa-com-20090101-190706-99-951813",
-    "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-07-06T18:04:46Z",
-    "content": "Direkt aus dem dpa-Newskanal\r\nLondon (dpa) - Der achtmalige Wimbledonsieger Roger Federer sowie die French-Open-Gewinner Rafael Nadal und Ashleigh Barty sind problemlos ins Achtelfinale eingezogen. Der Schweizer Federer gewann mit 7:5, 6:2, 7:6 (7:4) gegen de… [+942 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Stern.de",
     "author": "Jan Sägert",
     "title": "Nachrichten aus Deutschland: Nach Streit mit Unbekanntem: 49-Jähriger tot auf Feld entdeckt – Großfahndung nach Täter",
@@ -3078,20 +3092,6 @@
     "urlToImage": "https://www.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
     "publishedAt": "2019-06-30T19:17:07Z",
     "content": "Direkt aus dem dpa-Newskanal\r\nLudwigsburg (dpa/lsw) - Bei der Oberbürgermeisterwahl in Ludwigsburg hat der Amtsinhaber eine herbe Niederlage einstecken müssen: Der parteilose Werner Spec kam auf 29,44 Prozent, der von CDU, SPD und Grünen unterstützte Matthias… [+500 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
-    "source": "Sueddeutsche.de",
-    "author": "Von Christoph Leischwitz",
-    "title": "American Football: Löcher im Zaun",
-    "category": "sport",
-    "description": "Der ersatzgeschwächte Football-Erstligist Munich Cowboys gibt   trotz vieler Chancen das Spiel bei den Kichdorf Wildcats aus der Hand, was die Teilnahme an der Endrunde zusätzlich erschweren dürfte.",
-    "url": "https://www.sueddeutsche.de/muenchen/sport/american-football-loecher-im-zaun-1.4506056",
-    "urlToImage": "https://media-cdn.sueddeutsche.de/pagelayout/assets/img/sz-share-graphic.png?v\u003d20190219",
-    "publishedAt": "2019-06-30T18:44:45Z",
-    "content": "Der ersatzgeschwächte Football-Erstligist Munich Cowboys gibt trotz vieler Chancen das Spiel bei den Kichdorf Wildcats aus der Hand, was die Teilnahme an der Endrunde zusätzlich erschweren dürfte.\r\nDie Offensiv-Linie im American Football hat eine ähnliche Fun… [+4897 chars]"
   },
   {
     "LOG": {
@@ -3181,20 +3181,6 @@
     "LOG": {
       "name": "info.interactivesystems.newsvizmaspring.repository.Article"
     },
-    "source": "Morgenpost.de",
-    "author": "Michael Färber",
-    "title": "Bundesliga: Union will unberechenbarer werden",
-    "category": "sport",
-    "description": "Der 1. FC Union profitiert schon jetzt vom Fitnesszustand seiner Profis. Deshalb kann sich der Aufsteiger früher dem widmen, was in der Bundesliga wichtig wird.",
-    "url": "https://www.morgenpost.de/sport/union/article226337173/Union-will-unberechenbarer-werden.html",
-    "urlToImage": "https://img.morgenpost.de/img/union/crop226337171/2962606342-w820-cv16_9-q85/2a5c1eaa-9b3e-11e9-bded-35a0989f440e.jpg",
-    "publishedAt": "2019-06-30T16:00:00Z",
-    "content": "Berlin. Sich bei diesen hochsommerlichen Temperaturen von knapp 40 Grad auf die Bundesliga vorzubereiten, ist an sich schon eine echte Herausforderung. Vor allem dann, wenn wie in den ersten Tagen der Vorbereitung oft üblich das Bolzen von Kondition auf dem P… [+3469 chars]"
-  },
-  {
-    "LOG": {
-      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
-    },
     "source": "Sport1.de",
     "author": "SPORT1",
     "title": "Sport-Tag: Verstappen gewinnt Krimi - Frodeno holt 3. EM-Titel",
@@ -3204,6 +3190,20 @@
     "urlToImage": "https://reshape.sport1.de/unsafe/1200x630/filters:focus(57,43)/https://images.sport1.de/imagix/07af5a64-9b47-11e9-b08e-b8ca3a67761c",
     "publishedAt": "2019-06-30T16:00:00Z",
     "content": "Formel Gähn? Nicht beim Großen Preis von Österreich. Max Verstappen beendet die Siegesserie von Mercedes nach einem dramatischen Finish. Der FC Schalke verkündet auf seiner Jahrshauptversammlung einen Neuzugang und eine Vertragsverlängerung.\r\nSPORT1 überträgt… [+3116 chars]"
+  },
+  {
+    "LOG": {
+      "name": "info.interactivesystems.newsvizmaspring.repository.Article"
+    },
+    "source": "Morgenpost.de",
+    "author": "Michael Färber",
+    "title": "Bundesliga: Union will unberechenbarer werden",
+    "category": "sport",
+    "description": "Der 1. FC Union profitiert schon jetzt vom Fitnesszustand seiner Profis. Deshalb kann sich der Aufsteiger früher dem widmen, was in der Bundesliga wichtig wird.",
+    "url": "https://www.morgenpost.de/sport/union/article226337173/Union-will-unberechenbarer-werden.html",
+    "urlToImage": "https://img.morgenpost.de/img/union/crop226337171/2962606342-w820-cv16_9-q85/2a5c1eaa-9b3e-11e9-bded-35a0989f440e.jpg",
+    "publishedAt": "2019-06-30T16:00:00Z",
+    "content": "Berlin. Sich bei diesen hochsommerlichen Temperaturen von knapp 40 Grad auf die Bundesliga vorzubereiten, ist an sich schon eine echte Herausforderung. Vor allem dann, wenn wie in den ersten Tagen der Vorbereitung oft üblich das Bolzen von Kondition auf dem P… [+3469 chars]"
   },
   {
     "LOG": {

@@ -1,8 +1,8 @@
 <template>
   <div class="slidecontainer">
-    <span>Politik</span>
-    <input type="range" min="1" v-bind:max="max" v-model="currentValue" step="1" @change="showValue" class="slider">
-    <span>{{currentValue}} Artikel ({{calcRelativeValue(currentValue, 273)}}%)</span>
+    <span>{{categoryName}}</span>
+    <input type="range" min="1" :max="maxValue" v-model.number=localCategoryValue step="1" class="slider">
+    <span>{{localCategoryValue}}%</span>
   </div>
 </template>
 
@@ -11,16 +11,55 @@
     name: 'SliderBar',
     data () {
       return {
-        currentValue: 65,
-        max: 65
+        categoriesCount: 0
       }
     },
+    props: [
+      'categoryValue',
+      'categoryName',
+      'maxValue',
+      'totalValue',
+      'jsonData',
+      'index'
+    ],
+    model: {
+      prop: 'categoryValue',
+      event: 'update'
+    },
     methods: {
-      showValue () {
-        this.$emit('showValue', this.currentValue)
-      },
       calcRelativeValue (value, total) {
-        return Math.round((value / total) * 100)
+        return Math.round(((value / total) * 100) * 100) / 100
+      },
+      scaleLinear (newVal, oldVal) {
+        let diff = oldVal - newVal
+        let categories = this.localJsonData.children
+        let amount = diff / categories.length
+
+        categories.forEach(function (category) {
+          category.value += amount
+        })
+      }
+    },
+    computed: {
+      localCategoryValue: {
+        get: function () {
+          return this.categoryValue
+        },
+        set: function (value) {
+          this.$emit('update', value)
+        }
+      },
+      localJsonData: {
+        get: function () {
+          return this.jsonData
+        }
+      }
+    },
+    watch: {
+      localCategoryValue: {
+        handler (newValue, oldValue) {
+          this.scaleLinear(newValue, oldValue)
+        }
       }
     }
   }
@@ -28,15 +67,17 @@
 
 <style scoped>
   .slidecontainer {
-    width: 50%;
+    width: 30%;
     padding: 10px;
     margin: auto;
+    display: inline-block;
+    vertical-align: top;
   }
 
   .slider {
     -webkit-appearance: none;
     width: 100%;
-    height: 25px;
+    height: 10px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
@@ -51,15 +92,15 @@
   .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background: #4CAF50;
     cursor: pointer;
   }
 
   .slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background: #4CAF50;
     cursor: pointer;
   }

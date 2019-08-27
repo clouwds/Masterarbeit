@@ -3,13 +3,17 @@
 
     <h1>NewsViz</h1>
 
-    <template v-if="treemapJsonLoaded">
-      <Treemap :jsonData="this.treemapJson"/>
-    </template>
+    <Treemap
+      v-if="treemapJsonLoaded"
+      :key="treemapKey"
+      :jsonData="treemapJson">
+    </Treemap>
 
-    <SliderBar :value="value"/>
+    <button @click="forceRerender">Update</button>
 
-    <CardComponent
+    <div>{{treemapJson}}</div>
+
+    <card-component v-if="newsJsonLoaded"
       v-for="article in articles"
       :key="article.url"
       :articleTitle="article.title"
@@ -20,7 +24,7 @@
       :articleContent="article.content"
       :articleDate="article.publishedAt"
       :articleUrl="article.url">
-    </CardComponent>
+    </card-component>
 
   </div>
 </template>
@@ -30,12 +34,7 @@
 import Treemap from '../components/Treemap.vue'
 import CardComponent from '../components/CardComponent'
 import SliderBar from '../components/SliderBar'
-import {json} from 'd3-request'
 import api from '@/backend-api'
-
-let d3 = {
-  json: json
-}
 
 export default {
   name: 'index',
@@ -47,43 +46,59 @@ export default {
   data () {
     return {
       treemapJsonLoaded: false,
+      newsJsonLoaded: false,
       treemapJson: null,
       newsfeedJson: null,
       articles: null,
+      categories: null,
       response: [],
       errors: [],
-      value: 65
+      treemapKey: 0
     }
   },
   mounted () {
-    var that = this
     // loads the data and calls the initialization methods
-    this.fetchData()
-
-    d3.json('/api/news',
-      function (error, data) {
-        if (error) console.log(error)
-        that.articles = data
-      }
-    )
+    this.fetchTreemapData()
+    this.fetchNewsData()
   },
   methods: {
     // showValue () {
     //   this.$emit('showValue', this.currentValue)
     // },
-    fetchData () {
+    fetchTreemapData () {
       api.data().then(response => {
         this.treemapJson = response.data
+        this.categories = response.data.children
         this.treemapJsonLoaded = true
+        this.sortByCategoryValue()
       })
     },
+    fetchNewsData () {
+      api.news().then(response => {
+        this.articles = response.data
+        this.newsJsonLoaded = true
+      })
+    },
+    sortByCategoryValue () {
+      this.categories = this._.orderBy(this.categories, 'value', 'desc')
+      this.treemapJson.children = this.categories
+    },
     calcRelativeValue (value, total) {
-      return Math.round((value / total) * 100)
+      return Math.round(((value / total) * 100) * 100) / 100
     },
     capitalize (str) {
       return str.charAt(0).toUpperCase() + str.slice(1)
+    },
+    forceRerender () {
+      console.log(this.treemapJson)
+      api.input(this.treemapJson).then(response => {
+        this.treemapJson = response.data
+        this.categories = response.data.children
+        this.treemapJsonLoaded = true
+        this.sortByCategoryValue()
+        this.treemapKey += 1
+      })
     }
-
   }
 }
 </script>

@@ -12,6 +12,9 @@ export default {
   news () {
     return AXIOS.get('/news')
   },
+  input (data) {
+    return AXIOS.post('/input', data)
+  },
   fetch () {
     return AXIOS.get('/fetch')
   }

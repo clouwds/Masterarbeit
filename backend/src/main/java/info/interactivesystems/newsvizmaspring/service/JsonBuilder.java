@@ -27,43 +27,38 @@ public class JsonBuilder {
    * @return Json to build TreeMap
    */
   public String buildTreeMapJson(HashMap userData) {
-    //List of all categories
+
     List<Map<String, Object>> rootChildren = new ArrayList<>();
+    List<String> distinctCategories = articleService.getDistinctCategories();
 
-    //List of all sources (children) of a category
-    List<Map<String,Object>> categoryChildren = new ArrayList<>();
+    double totalValue = 100.0;
+    double categoryValue = Math.round((totalValue/distinctCategories.size())*100.0)/100.0;
+    double maxCatValue = Math.round((totalValue - distinctCategories.size() +1)*100.0)/100.0;
 
-    List<String> categorySourcePairs = articleService.getAndCountCategorySourcePairs();
+    for (String category : distinctCategories) {
 
-    String prevCategory = "";
-    int categoryValue = 0;
-    int totalValue = 0;
+      List<Map<String,Object>> categoryChildren = new ArrayList<>();
+      List<String> distinctSources = articleService.getDistinctSourcesForCategory(category);
 
-    for (String entry : categorySourcePairs) {
+      for (String source : distinctSources) {
+        double sourceValue = Math.round((totalValue/distinctSources.size())*100.0)/100.0;
+        double maxSrcValue = Math.round((totalValue - distinctSources.size() +1)*100.0)/100.0;
 
-      String[] parts = entry.split(",");
-      String category = parts[0];
-      String source = parts[1];
-      int value = Integer.parseInt(parts[2]);
-
-      if (categoryChildren.isEmpty() || category.equals(prevCategory)) {
-        //add source to list of category children
-        value = addSource(categoryChildren, category, source, value, userData);
-        categoryValue += value;
-      } else {
-        //add category to list of root children
-        addCategory (userData, categoryChildren, rootChildren, prevCategory, categoryValue);
-        totalValue += categoryValue;
-
-        //reset before creating next category
-        categoryChildren = new ArrayList<>();
-        categoryValue = 0;
-
-        //add source of next category to its list of children
-        value = addSource(categoryChildren, category, source, value, userData);
-        categoryValue += value;
+        //add source
+        Map<String, Object> sourceMap = new HashMap<>();
+        sourceMap.put("name", source);
+        sourceMap.put("maxValue", maxSrcValue);
+        sourceMap.put("value", sourceValue);
+        categoryChildren.add(sourceMap);
       }
-      prevCategory = category;
+
+      //add category
+      Map<String, Object> categoryMap = new HashMap<>();
+      categoryMap.put("name", category);
+      categoryMap.put("maxValue", maxCatValue);
+      categoryMap.put("value", categoryValue);
+      categoryMap.put("children", categoryChildren);
+      rootChildren.add(categoryMap);
     }
 
     //finally add root values
@@ -76,62 +71,6 @@ public class JsonBuilder {
     String json = jsonObject.toJson(rootMap);
     writeToFile(json, TREEMAP_JSON_NAME);
     return json;
-  }
-
-  /**
-   * Add source details to json
-   * @param categoryChildren
-   * @param category
-   * @param source
-   * @param value
-   * @param userData
-   * @return
-   */
-  private int addSource (List<Map<String,Object>> categoryChildren, String category, String source, int value, HashMap userData) {
-    //specific source, which is child of a category
-    Map<String, Object> sourceMap = new HashMap<>();
-    sourceMap.put("name", source);
-    sourceMap.put("maxValue", value);
-
-    if (userData != null) {
-      int userSourceValue = getRequestedAmountForCategorySource(category, source, userData);
-      if (userSourceValue > -1) {
-        value = userSourceValue;
-      }
-    }
-
-    sourceMap.put("value", value);
-    categoryChildren.add(sourceMap);
-    return value;
-  }
-
-  /**
-   * Add category details and children to json
-   * @param userData
-   * @param categoryChildren
-   * @param rootChildren
-   * @param category
-   * @param value
-   */
-  private void addCategory (HashMap userData, List<Map<String,Object>> categoryChildren, List<Map<String,Object>> rootChildren, String category, int value) {
-    //specific category
-    Map<String, Object> categoryMap = new HashMap<>();
-    categoryMap.put("name", category);
-    categoryMap.put("maxValue", value);
-
-    if (userData != null) {
-      int userCategoryValue = getRequestedAmountForCategory(category, userData);
-      if (userCategoryValue > -1) {
-        if (userCategoryValue != value) {
-          LOG.warn("User category value is set, but does not correspond to computed category value!");
-        }
-        value = userCategoryValue;
-      }
-    }
-
-    categoryMap.put("value", value);
-    categoryMap.put("children", categoryChildren);
-    rootChildren.add(categoryMap);
   }
 
   /**

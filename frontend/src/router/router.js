@@ -4,9 +4,11 @@ import Index from '../views/Index.vue'
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 import VueMaterial from 'vue-material'
+import VueLodash from 'vue-lodash'
 
 Vue.use(Router)
 Vue.use(VueMaterial)
+Vue.use(VueLodash)
 
 export default new Router({
   mode: 'history',

@@ -1,99 +1,112 @@
 <template>
-  <div class="treemap">
-    <!-- The SVG structure is explicitly defined in the template with attributes derived from component data -->
-    <svg :height="height" style="margin-left: 0px;" :width="width">
-      <g style="shape-rendering: crispEdges;" transform="translate(0,20)">
-        <!-- We can use Vue transitions too! -->
-        <transition-group name="list" tag="g" class="depth">
-          <!-- Generate each of the visible squares at a given zoom level (the current selected node) -->
-          <g 
-            class="children" 
-            v-for="(children, index) in selectedNode._children" 
-            :key="'c_' + children.id" 
-            v-if="selectedNode"
-            >
-
-            <!-- Generate the children squares (only visible on hover of a square) -->
-            <rect 
-              v-for="child in children._children" 
-              class="child" 
-              :id="child.id" 
-              :key="child.id" 
-              :height="y(child.y1) - y(child.y0)" 
-              :width="x(child.x1) - x(child.x0)" 
-              :x="x(child.x0)" 
-              :y="y(child.y0)"
+  <div>
+    <div class="treemap">
+      <!-- The SVG structure is explicitly defined in the template with attributes derived from component data -->
+      <svg :height="height" style="margin-left: 0px;" :width="width">
+        <g style="shape-rendering: crispEdges;" transform="translate(0,20)">
+          <!-- We can use Vue transitions too! -->
+          <transition-group name="list" tag="g" class="depth">
+            <!-- Generate each of the visible squares at a given zoom level (the current selected node) -->
+            <g
+              class="children"
+              v-for="(children, index) in selectedNode._children"
+              :key="'c_' + children.id"
+              v-if="selectedNode"
               >
+
+              <!-- Generate the children squares (only visible on hover of a square) -->
+              <rect
+                v-for="child in children._children"
+                class="child"
+                :id="child.id"
+                :key="child.id"
+                :height="y(child.y1) - y(child.y0)"
+                :width="x(child.x1) - x(child.x0)"
+                :x="x(child.x0)"
+                :y="y(child.y0)"
+                >
+              </rect>
+
+              <!--
+                The visible square rect element.
+                You can attribute directly an event, that fires a method that changes the current node,
+                restructuring the data tree, that reactivly gets reflected in the template.
+              -->
+              <rect
+                class="parent"
+                v-on:click="selectNode"
+                :id="children.id"
+                :key="children.id"
+                :x="x(children.x0)"
+                :y="y(children.y0)"
+                :width="x(children.x1 - children.x0 + children.parent.x0)"
+                :height="y(children.y1 - children.y0 + children.parent.y0)"
+                :style="{ fill: color(index) }"
+                >
+
+                <!-- The title attribute -->
+                <title>{{ capitalize(children.data.name)}} | {{children.data.value}}% </title>
+              </rect>
+
+              <!-- The visible square text element with the title and value of the child node -->
+              <text
+                dy="1em"
+                :key="'t_' + children.parentId + '_' +children.id"
+                :x="x(children.x0) + 6"
+                :y="y(children.y0) + 6"
+                style="fill-opacity: 1;"
+                >
+                {{ capitalize(children.data.name)}}
+              </text>
+
+              <text
+                dy="2.25em"
+                :key="'t_' + children.id"
+                :x="x(children.x0) + 6"
+                :y="y(children.y0) + 6"
+                style="fill-opacity: 1;"
+                >
+
+                {{ children.data.value}}%
+              </text>
+
+            </g>
+          </transition-group>
+
+          <!-- The top most element, representing the previous node -->
+          <g class="grandparent">
+
+            <rect
+              :height="margin.top"
+              :width="width"
+              :y="(margin.top * -1)"
+              v-on:click="selectNode"
+              :id="parentId">
             </rect>
 
-            <!-- 
-              The visible square rect element.
-              You can attribute directly an event, that fires a method that changes the current node,
-              restructuring the data tree, that reactivly gets reflected in the template.
-            -->
-            <rect 
-              class="parent" 
-              v-on:click="selectNode" 
-              :id="children.id" 
-              :key="children.id" 
-              :x="x(children.x0)" 
-              :y="y(children.y0)" 
-              :width="x(children.x1 - children.x0 + children.parent.x0)" 
-              :height="y(children.y1 - children.y0 + children.parent.y0)" 
-              :style="{ fill: color(index) }"
-              >
-              
-              <!-- The title attribute -->
-              <title>{{ capitalize(children.data.name)}} | {{ calcRelativeValue(children.value, children.parent.value)}}% </title>
-            </rect>
+            <!-- The visible square text element with the id (basically a breadcumb, if you will) -->
+            <text
+              dy=".65em"
+              x="6"
+              y="-14">
 
-            <!-- The visible square text element with the title and value of the child node -->
-            <text 
-              dy="1em" 
-              :key="'t_' + children.parentId + '_' +children.id"
-              :x="x(children.x0) + 6" 
-              :y="y(children.y0) + 6" 
-              style="fill-opacity: 1;"
-              >
-              {{ capitalize(children.data.name)}}
+              {{ selectedNode.id }}
             </text>
-            
-            <text 
-              dy="2.25em" 
-              :key="'t_' + children.id" 
-              :x="x(children.x0) + 6" 
-              :y="y(children.y0) + 6" 
-              style="fill-opacity: 1;"
-              >
-
-              {{ children.value}} Artikel ({{ calcRelativeValue(children.value, children.parent.value)}}%)
-            </text>
-
           </g>
-        </transition-group>
-
-        <!-- The top most element, representing the previous node -->
-        <g class="grandparent">
-          
-          <rect 
-            :height="margin.top" 
-            :width="width" 
-            :y="(margin.top * -1)" 
-            v-on:click="selectNode" 
-            :id="parentId">
-          </rect>
-
-          <!-- The visible square text element with the id (basically a breadcumb, if you will) -->
-          <text 
-            dy=".65em" 
-            x="6" 
-            y="-14">
-            
-            {{ selectedNode.id }}
-          </text>
         </g>
-      </g>
-    </svg>
+      </svg>
+    </div>
+
+    <slider-bar
+      v-for="(category, index) in jsonData.children"
+      :key="category.name"
+      :categoryName="capitalize(category.name)"
+      :maxValue="category.maxValue"
+      :totalValue="jsonData.value"
+      :index="index"
+      :jsonData="jsonData"
+      v-model="category.value">
+    </slider-bar>
   </div>
 </template>
 
@@ -101,6 +114,7 @@
 import {scaleLinear, scaleOrdinal, schemeCategory20} from 'd3-scale'
 import {json} from 'd3-request'
 import {hierarchy, treemap} from 'd3-hierarchy'
+import SliderBar from './SliderBar'
 
 // To be explicit about which methods are from D3 let's wrap them around an object
 // Is there a better way to do this?
@@ -115,6 +129,9 @@ let d3 = {
 
 export default {
   name: 'Treemap',
+  components: {
+    SliderBar
+  },
   // the component's data
   data () {
     return {
@@ -128,7 +145,10 @@ export default {
       width: 960,
       height: 530,
       selected: null,
-      color: {}
+      color: {},
+      category: {
+        value: 0
+      }
     }
   },
   props: [
@@ -138,6 +158,18 @@ export default {
   watch: {
     selectedNode (newData, oldData) {
       console.log('The selected node changed...')
+    },
+    jsonData (newVal, oldVal) {
+      console.log('yes Im watching')
+      // this.jsonData = newVal
+      // var that =
+      //
+      // // An array with colors (can probably be replaced by a vuejs method)
+      // that.color = d3.scaleOrdinal(d3.schemeCategory20)
+      //
+      // that.initialize()
+      // that.accumulate(that.rootNode, that)
+      // that.treemap(that.rootNode)
     }
   },
   // In the beginning...
@@ -255,7 +287,7 @@ export default {
       this.selected = event.target.id
     },
     calcRelativeValue (value, total) {
-      return Math.round((value / total) * 100)
+      return Math.round(((value / total) * 100) * 100) / 100
     },
     capitalize (str) {
       return str.charAt(0).toUpperCase() + str.slice(1)
