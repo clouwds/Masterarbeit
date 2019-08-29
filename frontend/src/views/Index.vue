@@ -84,20 +84,21 @@ export default {
       this.treemapJson.children = this.categories
     },
     calcRelativeValue (value, total) {
-      return Math.round(((value / total) * 100) * 100) / 100
+      return Math.round((value / total) * 100)
     },
     capitalize (str) {
       return str.charAt(0).toUpperCase() + str.slice(1)
     },
     forceRerender () {
       console.log(this.treemapJson)
-      api.input(this.treemapJson).then(response => {
-        this.treemapJson = response.data
-        this.categories = response.data.children
-        this.treemapJsonLoaded = true
-        this.sortByCategoryValue()
-        this.treemapKey += 1
-      })
+      this.treemapKey += 1
+
+      // api.input(this.treemapJson).then(response => {
+      //   this.treemapJson = response.data
+      //   this.categories = response.data.children
+      //   this.treemapJsonLoaded = true
+      //   this.sortByCategoryValue()
+      // })
     }
   }
 }

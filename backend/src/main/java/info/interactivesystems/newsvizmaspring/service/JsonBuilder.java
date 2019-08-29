@@ -32,8 +32,11 @@ public class JsonBuilder {
     List<String> distinctCategories = articleService.getDistinctCategories();
 
     double totalValue = 100.0;
-    double categoryValue = Math.round((totalValue/distinctCategories.size())*100.0)/100.0;
-    double maxCatValue = Math.round((totalValue - distinctCategories.size() +1)*100.0)/100.0;
+//    double categoryValue = Math.round((totalValue/distinctCategories.size())*100.0)/100.0;
+//    double maxCatValue = Math.round((totalValue - distinctCategories.size() +1)*100.0)/100.0;
+
+    double categoryValue = totalValue/distinctCategories.size();
+    double maxCatValue = totalValue - distinctCategories.size() +1;
 
     for (String category : distinctCategories) {
 
@@ -41,13 +44,17 @@ public class JsonBuilder {
       List<String> distinctSources = articleService.getDistinctSourcesForCategory(category);
 
       for (String source : distinctSources) {
-        double sourceValue = Math.round((totalValue/distinctSources.size())*100.0)/100.0;
-        double maxSrcValue = Math.round((totalValue - distinctSources.size() +1)*100.0)/100.0;
+//        double sourceValue = Math.round((totalValue/distinctSources.size())*100.0)/100.0;
+//        double maxSrcValue = Math.round((totalValue - distinctSources.size() +1)*100.0)/100.0;
+
+        double sourceValue = totalValue/distinctSources.size();
+        double maxSrcValue = totalValue - distinctSources.size() +1;
 
         //add source
         Map<String, Object> sourceMap = new HashMap<>();
         sourceMap.put("name", source);
         sourceMap.put("maxValue", maxSrcValue);
+        sourceMap.put("minValue", 1);
         sourceMap.put("value", sourceValue);
         categoryChildren.add(sourceMap);
       }
@@ -56,6 +63,7 @@ public class JsonBuilder {
       Map<String, Object> categoryMap = new HashMap<>();
       categoryMap.put("name", category);
       categoryMap.put("maxValue", maxCatValue);
+      categoryMap.put("minValue", 1);
       categoryMap.put("value", categoryValue);
       categoryMap.put("children", categoryChildren);
       rootChildren.add(categoryMap);

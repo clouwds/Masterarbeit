@@ -1,8 +1,8 @@
 <template>
   <div class="slidecontainer">
     <span>{{categoryName}}</span>
-    <input type="range" min="1" :max="maxValue" v-model.number=localCategoryValue step="1" class="slider">
-    <span>{{localCategoryValue}}%</span>
+    <input type="range" min="1" :max="maxValue" v-model.number=localCategoryValue @mousedown="setDragged" @mouseup="setDragged" step="1" class="slider">
+    <span>{{roundValue(localCategoryValue)}}%</span>
   </div>
 </template>
 
@@ -11,7 +11,8 @@
     name: 'SliderBar',
     data () {
       return {
-        categoriesCount: 0
+        categoriesCount: 0,
+        dragged: false
       }
     },
     props: [
@@ -27,20 +28,92 @@
       event: 'update'
     },
     methods: {
-      calcRelativeValue (value, total) {
-        return Math.round(((value / total) * 100) * 100) / 100
+      roundValue (value) {
+        return Math.round(value)
       },
       scaleLinear (newVal, oldVal) {
         let diff = oldVal - newVal
         let categories = this.localJsonData.children
-        let amount = diff / categories.length
+        let currentCategory = categories[this.index]
+        let tmpCatCount = 0
+        let amountRest = 0
+        let isMaxValue = false
 
+        // check if > 1.05 and < maxValue - 0,5 because of rounding issues
+        for (let category of categories) {
+          if (category.name === currentCategory.name.toLowerCase() && category.value === category.maxValue) {
+            isMaxValue = true
+          }
+
+          // get Number of sliders to adapt
+          let inRange = category.value >= category.minValue + 0.5 && category.value <= category.maxValue - 0.5
+          if (!(category.name === currentCategory.name.toLowerCase()) && inRange) {
+            tmpCatCount += 1
+          }
+        }
+
+        // if no slider is in Range, adapt all
+        if (tmpCatCount === 0) {
+          tmpCatCount = categories.length - 1
+        }
+
+        let amount = diff / tmpCatCount
+
+        // adapt sliders
         categories.forEach(function (category) {
-          category.value += amount
+          if (!(category.name === currentCategory.name.toLowerCase())) {
+            // if the manipulated slider is set to maxValue, set all other sliders to minValue
+            if (isMaxValue) {
+              category.value = category.minValue
+            } else {
+              let inRange = category.value > category.minValue + 0.5 && category.value < category.maxValue - 0.5
+
+              if (inRange || tmpCatCount === categories.length - 1) {
+                let newValue = category.value + amount
+
+                // if newValue is higher than maxValue, calc how much to add
+                if (newValue > category.maxValue) {
+                  // calc amount, so that the category value does not rise over maxValue
+                  let amountToAdd = category.maxValue - category.value
+                  amountRest += amount - amountToAdd
+                  category.value += amountToAdd
+
+                  // if newValue is lower than minValue, calc how much to add
+                } else if (newValue < category.minValue) {
+                  // calc amount, so that the category value does not fall under 1
+                  let amountToAdd = 1 - category.value
+                  amountRest += amount - amountToAdd
+                  category.value += amountToAdd
+
+                  // if newValue is between minValue and maxValue, add amount
+                } else {
+                  category.value += amount
+                }
+              }
+            }
+          }
         })
+
+        // if there is a rest, that could not been added, adjust the originally manipulated slider
+        if (amountRest !== 0) {
+          for (let category of categories) {
+            if (category.name === currentCategory.name.toLowerCase()) {
+              category.value += amountRest
+              break
+            }
+          }
+        }
+      },
+      setDragged () {
+        this.dragged = !this.dragged
       }
     },
     computed: {
+      localCategoryName: {
+        get: function () {
+          return this.categoryName
+        }
+      },
       localCategoryValue: {
         get: function () {
           return this.categoryValue
@@ -52,13 +125,18 @@
       localJsonData: {
         get: function () {
           return this.jsonData
+        },
+        set: function (value) {
+          this.$emit('update', value)
         }
       }
     },
     watch: {
       localCategoryValue: {
         handler (newValue, oldValue) {
-          this.scaleLinear(newValue, oldValue)
+          if (this.dragged) {
+            this.scaleLinear(newValue, oldValue)
+          }
         }
       }
     }

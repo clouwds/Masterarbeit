@@ -41,7 +41,7 @@
                 :y="y(children.y0)"
                 :width="x(children.x1 - children.x0 + children.parent.x0)"
                 :height="y(children.y1 - children.y0 + children.parent.y0)"
-                :style="{ fill: color(index) }"
+                :style="{ fill: mapColor(children.data.name, index) }"
                 >
 
                 <!-- The title attribute -->
@@ -67,7 +67,7 @@
                 style="fill-opacity: 1;"
                 >
 
-                {{ children.data.value}}%
+                {{ roundValue(children.data.value)}}%
               </text>
 
             </g>
@@ -145,10 +145,10 @@ export default {
       width: 960,
       height: 530,
       selected: null,
+      currentNode: {},
       color: {},
-      category: {
-        value: 0
-      }
+      catArr: []
+
     }
   },
   props: [
@@ -157,19 +157,20 @@ export default {
   // You can do whatever when the selected node changes
   watch: {
     selectedNode (newData, oldData) {
-      console.log('The selected node changed...')
+
     },
     jsonData (newVal, oldVal) {
       console.log('yes Im watching')
-      // this.jsonData = newVal
-      // var that =
-      //
-      // // An array with colors (can probably be replaced by a vuejs method)
-      // that.color = d3.scaleOrdinal(d3.schemeCategory20)
-      //
-      // that.initialize()
-      // that.accumulate(that.rootNode, that)
-      // that.treemap(that.rootNode)
+      this.jsonData = newVal
+      var that = this
+
+      // An array with colors (can probably be replaced by a vuejs method)
+      that.color = d3.scaleOrdinal(d3.schemeCategory20)
+
+      that.initialize()
+      that.accumulate(that.rootNode, that)
+      that.treemap(that.rootNode)
+      that.catArr = that.jsonData.children
     }
   },
   // In the beginning...
@@ -182,6 +183,7 @@ export default {
     that.initialize()
     that.accumulate(that.rootNode, that)
     that.treemap(that.rootNode)
+    that.catArr = that.jsonData.children
   },
   // The reactive computed variables that fire rerenders
   computed: {
@@ -244,7 +246,7 @@ export default {
 
       if (that.jsonData) {
         that.rootNode = d3.hierarchy(that.jsonData)
-        .eachBefore(function (d) { d.id = (d.parent ? d.parent.id + '.' : '') + d.data.name })
+        .eachBefore(function (d) { d.id = (d.parent ? d.parent.id + '.' : '') + d.data.name }) // set id e.g. Newsviz.auto
         .sum((d) => d.value)
         .sort(function (a, b) {
           return b.height - a.height || b.value - a.value
@@ -253,6 +255,8 @@ export default {
         that.rootNode.x1 = that.width
         that.rootNode.y1 = that.height
         that.rootNode.depth = 0
+
+        console.log(that.rootNode)
       }
     },
     // Calculates the accumulated value (sum of children values) of a node - its weight,
@@ -286,11 +290,26 @@ export default {
     selectNode (event) {
       this.selected = event.target.id
     },
-    calcRelativeValue (value, total) {
-      return Math.round(((value / total) * 100) * 100) / 100
+    roundValue (value) {
+      if (value < 0.5) {
+        return 1
+      }
+      return Math.round(value)
     },
     capitalize (str) {
       return str.charAt(0).toUpperCase() + str.slice(1)
+    },
+    mapColor (name, index) {
+      const mapCat = this.catArr.map(x => x.name)
+      const colScaleCat = d3.scaleOrdinal(d3.schemeCategory20).domain(mapCat)
+
+      if (!(mapCat.includes(name))) {
+        // @TODO
+        // const mapSrc = this.catArr[index].children.map(x => x.name)
+        // const colScaleSrc = d3.scaleOrdinal(d3.schemeCategory20).domain(mapSrc)
+        // return colScaleSrc(name)
+      }
+      return colScaleCat(name)
     }
   }
 }
