@@ -1,8 +1,8 @@
 <template>
   <div class="slidecontainer">
-    <span>{{categoryName}}</span>
-    <input type="range" min="1" :max="maxValue" v-model.number=localCategoryValue @mousedown="setDragged" @mouseup="setDragged" step="1" class="slider">
-    <span>{{roundValue(localCategoryValue)}}%</span>
+    <span>{{nodeName}}</span>
+    <input type="range" :min="minValue" :max="maxValue" v-model.number=localNodeValue @mousedown="setDragged" @mouseup="setDragged" step="0.01" class="slider">
+    <span>{{localNodeValue}}%</span>
   </div>
 </template>
 
@@ -16,16 +16,21 @@
       }
     },
     props: [
-      'categoryValue',
-      'categoryName',
+      'nodeValue',
+      'nodeName',
+      'minValue',
       'maxValue',
       'totalValue',
       'jsonData',
-      'index'
+      'index',
+      'children'
     ],
     model: {
-      prop: 'categoryValue',
+      prop: 'nodeValue',
       event: 'update'
+    },
+    mounted () {
+
     },
     methods: {
       roundValue (value) {
@@ -33,75 +38,74 @@
       },
       scaleLinear (newVal, oldVal) {
         let diff = oldVal - newVal
-        let categories = this.localJsonData.children
-        let currentCategory = categories[this.index]
-        let tmpCatCount = 0
+        let currentCategory = this.children[this.index]
         let amountRest = 0
         let isMaxValue = false
+        let adaptableSliders = []
 
-        // check if > 1.05 and < maxValue - 0,5 because of rounding issues
-        for (let category of categories) {
-          if (category.name === currentCategory.name.toLowerCase() && category.value === category.maxValue) {
-            isMaxValue = true
-          }
-
-          // get Number of sliders to adapt
-          let inRange = category.value >= category.minValue + 0.5 && category.value <= category.maxValue - 0.5
-          if (!(category.name === currentCategory.name.toLowerCase()) && inRange) {
-            tmpCatCount += 1
-          }
+        if (currentCategory.size === currentCategory.maxValue) {
+          isMaxValue = true
         }
 
-        // if no slider is in Range, adapt all
-        if (tmpCatCount === 0) {
-          tmpCatCount = categories.length - 1
-        }
-
-        let amount = diff / tmpCatCount
-
-        // adapt sliders
-        categories.forEach(function (category) {
-          if (!(category.name === currentCategory.name.toLowerCase())) {
-            // if the manipulated slider is set to maxValue, set all other sliders to minValue
+        for (let child of this.children) {
+          if (child !== currentCategory) {
+            // if current slider has maxValue, set all other sliders to minValue
             if (isMaxValue) {
-              category.value = category.minValue
-            } else {
-              let inRange = category.value > category.minValue + 0.5 && category.value < category.maxValue - 0.5
+              child.size = child.minValue
+              continue
+            }
 
-              if (inRange || tmpCatCount === categories.length - 1) {
-                let newValue = category.value + amount
+            // get sliders to adapt
+            let inRange = child.size > child.minValue && child.size < child.maxValue
 
-                // if newValue is higher than maxValue, calc how much to add
-                if (newValue > category.maxValue) {
-                  // calc amount, so that the category value does not rise over maxValue
-                  let amountToAdd = category.maxValue - category.value
-                  amountRest += amount - amountToAdd
-                  category.value += amountToAdd
-
-                  // if newValue is lower than minValue, calc how much to add
-                } else if (newValue < category.minValue) {
-                  // calc amount, so that the category value does not fall under 1
-                  let amountToAdd = 1 - category.value
-                  amountRest += amount - amountToAdd
-                  category.value += amountToAdd
-
-                  // if newValue is between minValue and maxValue, add amount
-                } else {
-                  category.value += amount
-                }
-              }
+            if (diff < 0 && (inRange || child.size === child.maxValue)) {
+              adaptableSliders.push(child)
+            } else if (diff > 0 && (inRange || child.size === child.minValue)) {
+              adaptableSliders.push(child)
             }
           }
-        })
+        }
+
+        let amount = diff / adaptableSliders.length
+
+        // if current was set to max break, because the others already have been adapted
+        for (let child of adaptableSliders) {
+          if (isMaxValue) {
+            break
+          }
+
+          let newValue = child.size + amount
+          let amountToAdd = amount
+
+          // if newValue is higher than maxValue, calc how much to add
+          if (newValue > child.maxValue) {
+            // calc amount, so that the category value does not rise over maxValue
+            amountToAdd = child.maxValue - child.size
+            // if newValue is lower than minValue, calc how much to add
+          } else if (newValue < child.minValue) {
+            // calc amount, so that the category value does not fall under minValue
+            amountToAdd = child.minValue - child.size
+          }
+          amountRest += amount - amountToAdd
+          child.size += amountToAdd
+        }
 
         // if there is a rest, that could not been added, adjust the originally manipulated slider
-        if (amountRest !== 0) {
-          for (let category of categories) {
-            if (category.name === currentCategory.name.toLowerCase()) {
-              category.value += amountRest
-              break
-            }
+        if (amountRest > 0) {
+          currentCategory.size += amountRest
+        }
+        this.showValues()
+      },
+      setToMin () {
+        for (let child of this.children) {
+          if (!(child.size === child.maxValue)) {
+            child.size = child.minValue
           }
+        }
+      },
+      showValues () {
+        for (let child of this.children) {
+          console.log(child.name + ': ' + child.size)
         }
       },
       setDragged () {
@@ -114,9 +118,9 @@
           return this.categoryName
         }
       },
-      localCategoryValue: {
+      localNodeValue: {
         get: function () {
-          return this.categoryValue
+          return this.nodeValue
         },
         set: function (value) {
           this.$emit('update', value)
@@ -132,7 +136,7 @@
       }
     },
     watch: {
-      localCategoryValue: {
+      localNodeValue: {
         handler (newValue, oldValue) {
           if (this.dragged) {
             this.scaleLinear(newValue, oldValue)

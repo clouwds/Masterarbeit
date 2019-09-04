@@ -46,11 +46,7 @@ public class ViewController {
     private @ResponseBody String input(@RequestBody HashMap userData) {
         LOG.info("POST called on /input resource");
 
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        return jsonBuilder.buildTreeMapJson(userData);
-
-//        HashMap<String, Object> jsonData = gson.fromJson(jsonBuilder.buildTreeMapJson(userData), HashMap.class);
-//        articleService.getNewsfeedArticles(jsonData);
+        return jsonBuilder.buildNewsfeedJson(userData);
     }
 
     @RequestMapping(path = "/fetch")

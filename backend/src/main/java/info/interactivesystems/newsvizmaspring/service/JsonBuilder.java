@@ -31,12 +31,17 @@ public class JsonBuilder {
     List<Map<String, Object>> rootChildren = new ArrayList<>();
     List<String> distinctCategories = articleService.getDistinctCategories();
 
-    double totalValue = 100.0;
+    // remove unnamed category from the list
+    distinctCategories.removeIf(""::equals);
+
+    // root must always be 100%
+    final double totalValue = 100.0;
 //    double categoryValue = Math.round((totalValue/distinctCategories.size())*100.0)/100.0;
 //    double maxCatValue = Math.round((totalValue - distinctCategories.size() +1)*100.0)/100.0;
 
     double categoryValue = totalValue/distinctCategories.size();
-    double maxCatValue = totalValue - distinctCategories.size() +1;
+    double minCatValue = 5;
+    double maxCatValue = totalValue - (minCatValue * distinctCategories.size()) + minCatValue;
 
     for (String category : distinctCategories) {
 
@@ -47,15 +52,17 @@ public class JsonBuilder {
 //        double sourceValue = Math.round((totalValue/distinctSources.size())*100.0)/100.0;
 //        double maxSrcValue = Math.round((totalValue - distinctSources.size() +1)*100.0)/100.0;
 
-        double sourceValue = totalValue/distinctSources.size();
-        double maxSrcValue = totalValue - distinctSources.size() +1;
+        double sourceValue = totalValue / distinctSources.size();
+        double minSrcValue = 5;
+        double maxSrcValue = totalValue - (minSrcValue * distinctSources.size() ) + minSrcValue;
 
         //add source
         Map<String, Object> sourceMap = new HashMap<>();
         sourceMap.put("name", source);
         sourceMap.put("maxValue", maxSrcValue);
-        sourceMap.put("minValue", 1);
-        sourceMap.put("value", sourceValue);
+        sourceMap.put("minValue", minSrcValue);
+        sourceMap.put("initialSize", sourceValue);
+        sourceMap.put("size", sourceValue);
         categoryChildren.add(sourceMap);
       }
 
@@ -63,8 +70,9 @@ public class JsonBuilder {
       Map<String, Object> categoryMap = new HashMap<>();
       categoryMap.put("name", category);
       categoryMap.put("maxValue", maxCatValue);
-      categoryMap.put("minValue", 1);
-      categoryMap.put("value", categoryValue);
+      categoryMap.put("minValue", 5);
+      categoryMap.put("initialSize", categoryValue);
+      categoryMap.put("size", categoryValue);
       categoryMap.put("children", categoryChildren);
       rootChildren.add(categoryMap);
     }
@@ -72,7 +80,8 @@ public class JsonBuilder {
     //finally add root values
     Map<String, Object> rootMap = new HashMap<>();
     rootMap.put("name", "Newsviz");
-    rootMap.put("value", totalValue);
+    rootMap.put("size", totalValue);
+    rootMap.put("numArticles", 100);
     rootMap.put("children", rootChildren);
 
     Gson jsonObject = new GsonBuilder().setPrettyPrinting().create();

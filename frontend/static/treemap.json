@@ -1,692 +1,544 @@
 {
+  "numArticles": 100,
+  "size": 100.0,
   "children": [
     {
-      "minValue": 1,
+      "minValue": 5,
+      "size": 16.666666666666668,
       "children": [
         {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Bild",
-          "value": 20.0
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Sueddeutsche.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Sueddeutsche.de",
-          "value": 20.0
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Die Zeit"
         },
         {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Www.noz.de",
-          "value": 20.0
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Der Tagesspiegel"
         },
         {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Welt.de",
-          "value": 20.0
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Spiegel Online"
         },
         {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Taz.de",
-          "value": 20.0
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Handelsblatt"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Sputniknews.com"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Morgenpost.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Faz.net"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Bild"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Welt.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "N-tv.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Stern.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Web.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Www.wa.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Merkur.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 6.25,
+          "maxValue": 25.0,
+          "initialSize": 6.25,
+          "name": "Focus"
         }
       ],
-      "maxValue": 88.0,
-      "name": "lokales",
-      "value": 7.6923076923076925
+      "maxValue": 75.0,
+      "initialSize": 16.666666666666668,
+      "name": "politik"
     },
     {
-      "minValue": 1,
+      "minValue": 5,
+      "size": 16.666666666666668,
       "children": [
         {
-          "minValue": 1,
-          "maxValue": 97.0,
-          "name": "Urlaubspiraten.de",
-          "value": 25.0
+          "minValue": 5.0,
+          "size": 14.285714285714286,
+          "maxValue": 70.0,
+          "initialSize": 14.285714285714286,
+          "name": "Sueddeutsche.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 97.0,
-          "name": "Spiegel Online",
-          "value": 25.0
+          "minValue": 5.0,
+          "size": 14.285714285714286,
+          "maxValue": 70.0,
+          "initialSize": 14.285714285714286,
+          "name": "Stern.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 97.0,
-          "name": "Stern.de",
-          "value": 25.0
+          "minValue": 5.0,
+          "size": 14.285714285714286,
+          "maxValue": 70.0,
+          "initialSize": 14.285714285714286,
+          "name": "Focus"
         },
         {
-          "minValue": 1,
-          "maxValue": 97.0,
-          "name": "Bild",
-          "value": 25.0
+          "minValue": 5.0,
+          "size": 14.285714285714286,
+          "maxValue": 70.0,
+          "initialSize": 14.285714285714286,
+          "name": "Welt.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 14.285714285714286,
+          "maxValue": 70.0,
+          "initialSize": 14.285714285714286,
+          "name": "Spiegel Online"
+        },
+        {
+          "minValue": 5.0,
+          "size": 14.285714285714286,
+          "maxValue": 70.0,
+          "initialSize": 14.285714285714286,
+          "name": "Der Tagesspiegel"
+        },
+        {
+          "minValue": 5.0,
+          "size": 14.285714285714286,
+          "maxValue": 70.0,
+          "initialSize": 14.285714285714286,
+          "name": "Morgenpost.de"
         }
       ],
-      "maxValue": 88.0,
-      "name": "reise",
-      "value": 7.6923076923076925
+      "maxValue": 75.0,
+      "initialSize": 16.666666666666668,
+      "name": "kultur"
     },
     {
-      "minValue": 1,
+      "minValue": 5,
+      "size": 16.666666666666668,
       "children": [
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Sueddeutsche.de",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Faz.net"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Die Zeit",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Sport1.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Der Tagesspiegel",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Sueddeutsche.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Spiegel Online",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Tagesschau.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Handelsblatt",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Bild"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Sputniknews.com",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Der Tagesspiegel"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Morgenpost.de",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Morgenpost.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Faz.net",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Focus"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Bild",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Sport.orf.at"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Welt.de",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Spiegel Online"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "N-tv.de",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Welt.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Stern.de",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Www.nzz.ch"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Web.de",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Sport.sme.sk"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Www.wa.de",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "Diepresse.com"
         },
         {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Merkur.de",
-          "value": 6.25
-        },
-        {
-          "minValue": 1,
-          "maxValue": 85.0,
-          "name": "Focus",
-          "value": 6.25
+          "minValue": 5.0,
+          "size": 6.666666666666667,
+          "maxValue": 30.0,
+          "initialSize": 6.666666666666667,
+          "name": "N-tv.de"
         }
       ],
-      "maxValue": 88.0,
-      "name": "politik",
-      "value": 7.6923076923076925
+      "maxValue": 75.0,
+      "initialSize": 16.666666666666668,
+      "name": "sport"
     },
     {
-      "minValue": 1,
+      "minValue": 5,
+      "size": 16.666666666666668,
       "children": [
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Sueddeutsche.de",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Sueddeutsche.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Faz.net",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Der Tagesspiegel"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Der Tagesspiegel",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Stern.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Wirtschafts Woche",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Faz.net"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Freitag.de",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Focus"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Golem.de",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Pcgameshardware.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Derstandard.at",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "N-tv.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Sputniknews.com"
+        },
+        {
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Diepresse.com"
+        },
+        {
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Spiegel Online"
+        },
+        {
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Web.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 8.333333333333334,
+          "maxValue": 45.0,
+          "initialSize": 8.333333333333334,
+          "name": "Die Zeit"
         }
       ],
-      "maxValue": 88.0,
-      "name": "auto",
-      "value": 7.6923076923076925
+      "maxValue": 75.0,
+      "initialSize": 16.666666666666668,
+      "name": "panorama"
     },
     {
-      "minValue": 1,
+      "minValue": 5,
+      "size": 16.666666666666668,
       "children": [
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Sueddeutsche.de",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Sueddeutsche.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Stern.de",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Welt.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Focus",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Morgenpost.de"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Welt.de",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Faz.net"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Spiegel Online",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Spiegel Online"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Der Tagesspiegel",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Diepresse.com"
         },
         {
-          "minValue": 1,
-          "maxValue": 94.0,
-          "name": "Morgenpost.de",
-          "value": 14.285714285714286
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Der Tagesspiegel"
+        },
+        {
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Stern.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "N-tv.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Die Zeit"
+        },
+        {
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Tagesschau.de"
+        },
+        {
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Sputniknews.com"
+        },
+        {
+          "minValue": 5.0,
+          "size": 7.6923076923076925,
+          "maxValue": 40.0,
+          "initialSize": 7.6923076923076925,
+          "name": "Www.nzz.ch"
         }
       ],
-      "maxValue": 88.0,
-      "name": "kultur",
-      "value": 7.6923076923076925
+      "maxValue": 75.0,
+      "initialSize": 16.666666666666668,
+      "name": "wirtschaft"
     },
     {
-      "minValue": 1,
+      "minValue": 5,
+      "size": 16.666666666666668,
       "children": [
         {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Faz.net",
-          "value": 6.666666666666667
+          "minValue": 5.0,
+          "size": 16.666666666666668,
+          "maxValue": 75.0,
+          "initialSize": 16.666666666666668,
+          "name": "Focus"
         },
         {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Sport1.de",
-          "value": 6.666666666666667
+          "minValue": 5.0,
+          "size": 16.666666666666668,
+          "maxValue": 75.0,
+          "initialSize": 16.666666666666668,
+          "name": "Wirtschafts Woche"
         },
         {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Sueddeutsche.de",
-          "value": 6.666666666666667
+          "minValue": 5.0,
+          "size": 16.666666666666668,
+          "maxValue": 75.0,
+          "initialSize": 16.666666666666668,
+          "name": "Faz.net"
         },
         {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Tagesschau.de",
-          "value": 6.666666666666667
+          "minValue": 5.0,
+          "size": 16.666666666666668,
+          "maxValue": 75.0,
+          "initialSize": 16.666666666666668,
+          "name": "Handelsblatt"
         },
         {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Bild",
-          "value": 6.666666666666667
+          "minValue": 5.0,
+          "size": 16.666666666666668,
+          "maxValue": 75.0,
+          "initialSize": 16.666666666666668,
+          "name": "Bild"
         },
         {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Der Tagesspiegel",
-          "value": 6.666666666666667
-        },
-        {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Morgenpost.de",
-          "value": 6.666666666666667
-        },
-        {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Focus",
-          "value": 6.666666666666667
-        },
-        {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Sport.orf.at",
-          "value": 6.666666666666667
-        },
-        {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Spiegel Online",
-          "value": 6.666666666666667
-        },
-        {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Welt.de",
-          "value": 6.666666666666667
-        },
-        {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Www.nzz.ch",
-          "value": 6.666666666666667
-        },
-        {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Sport.sme.sk",
-          "value": 6.666666666666667
-        },
-        {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "Diepresse.com",
-          "value": 6.666666666666667
-        },
-        {
-          "minValue": 1,
-          "maxValue": 86.0,
-          "name": "N-tv.de",
-          "value": 6.666666666666667
+          "minValue": 5.0,
+          "size": 16.666666666666668,
+          "maxValue": 75.0,
+          "initialSize": 16.666666666666668,
+          "name": "Welt.de"
         }
       ],
-      "maxValue": 88.0,
-      "name": "sport",
-      "value": 7.6923076923076925
-    },
-    {
-      "minValue": 1,
-      "children": [
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Sueddeutsche.de",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Der Tagesspiegel",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Stern.de",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Faz.net",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Focus",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Pcgameshardware.de",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "N-tv.de",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Sputniknews.com",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Diepresse.com",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Spiegel Online",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Web.de",
-          "value": 8.333333333333334
-        },
-        {
-          "minValue": 1,
-          "maxValue": 89.0,
-          "name": "Die Zeit",
-          "value": 8.333333333333334
-        }
-      ],
-      "maxValue": 88.0,
-      "name": "panorama",
-      "value": 7.6923076923076925
-    },
-    {
-      "minValue": 1,
-      "children": [
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Sueddeutsche.de",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Welt.de",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Morgenpost.de",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Faz.net",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Spiegel Online",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Diepresse.com",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Der Tagesspiegel",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Stern.de",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "N-tv.de",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Die Zeit",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Tagesschau.de",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Sputniknews.com",
-          "value": 7.6923076923076925
-        },
-        {
-          "minValue": 1,
-          "maxValue": 88.0,
-          "name": "Www.nzz.ch",
-          "value": 7.6923076923076925
-        }
-      ],
-      "maxValue": 88.0,
-      "name": "wirtschaft",
-      "value": 7.6923076923076925
-    },
-    {
-      "minValue": 1,
-      "children": [
-        {
-          "minValue": 1,
-          "maxValue": 95.0,
-          "name": "Focus",
-          "value": 16.666666666666668
-        },
-        {
-          "minValue": 1,
-          "maxValue": 95.0,
-          "name": "Wirtschafts Woche",
-          "value": 16.666666666666668
-        },
-        {
-          "minValue": 1,
-          "maxValue": 95.0,
-          "name": "Faz.net",
-          "value": 16.666666666666668
-        },
-        {
-          "minValue": 1,
-          "maxValue": 95.0,
-          "name": "Handelsblatt",
-          "value": 16.666666666666668
-        },
-        {
-          "minValue": 1,
-          "maxValue": 95.0,
-          "name": "Bild",
-          "value": 16.666666666666668
-        },
-        {
-          "minValue": 1,
-          "maxValue": 95.0,
-          "name": "Welt.de",
-          "value": 16.666666666666668
-        }
-      ],
-      "maxValue": 88.0,
-      "name": "finanzen",
-      "value": 7.6923076923076925
-    },
-    {
-      "minValue": 1,
-      "children": [
-        {
-          "minValue": 1,
-          "maxValue": 99.0,
-          "name": "Sueddeutsche.de",
-          "value": 50.0
-        },
-        {
-          "minValue": 1,
-          "maxValue": 99.0,
-          "name": "Faz.net",
-          "value": 50.0
-        }
-      ],
-      "maxValue": 88.0,
-      "name": "wissen",
-      "value": 7.6923076923076925
-    },
-    {
-      "minValue": 1,
-      "children": [
-        {
-          "minValue": 1,
-          "maxValue": 97.0,
-          "name": "Bild",
-          "value": 25.0
-        },
-        {
-          "minValue": 1,
-          "maxValue": 97.0,
-          "name": "Heise.de",
-          "value": 25.0
-        },
-        {
-          "minValue": 1,
-          "maxValue": 97.0,
-          "name": "Focus",
-          "value": 25.0
-        },
-        {
-          "minValue": 1,
-          "maxValue": 97.0,
-          "name": "Welt.de",
-          "value": 25.0
-        }
-      ],
-      "maxValue": 88.0,
-      "name": "sonstige",
-      "value": 7.6923076923076925
-    },
-    {
-      "minValue": 1,
-      "children": [
-        {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Sputniknews.com",
-          "value": 20.0
-        },
-        {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Faz.net",
-          "value": 20.0
-        },
-        {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Futurezone.at",
-          "value": 20.0
-        },
-        {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Handelsblatt",
-          "value": 20.0
-        },
-        {
-          "minValue": 1,
-          "maxValue": 96.0,
-          "name": "Sueddeutsche.de",
-          "value": 20.0
-        }
-      ],
-      "maxValue": 88.0,
-      "name": "digital",
-      "value": 7.6923076923076925
-    },
-    {
-      "minValue": 1,
-      "children": [
-        {
-          "minValue": 1,
-          "maxValue": 100.0,
-          "name": "Diepresse.com",
-          "value": 100.0
-        }
-      ],
-      "maxValue": 88.0,
-      "name": "welt",
-      "value": 7.6923076923076925
+      "maxValue": 75.0,
+      "initialSize": 16.666666666666668,
+      "name": "finanzen"
     }
   ],
-  "name": "Newsviz",
-  "value": 100.0
+  "name": "Newsviz"
 }

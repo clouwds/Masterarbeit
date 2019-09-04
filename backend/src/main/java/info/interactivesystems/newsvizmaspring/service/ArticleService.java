@@ -2,6 +2,7 @@ package info.interactivesystems.newsvizmaspring.service;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import info.interactivesystems.newsvizmaspring.helper.CalculationHelper;
 import info.interactivesystems.newsvizmaspring.repository.Article;
 import info.interactivesystems.newsvizmaspring.repository.ArticleRepository;
 import info.interactivesystems.newsvizmaspring.model.ArticleDto;
@@ -16,6 +17,9 @@ public class ArticleService {
 
   @Autowired
   JsonBuilder jsonBuilder;
+
+  @Autowired
+  CalculationHelper calculationHelper;
 
   public void add(ArticleDto dto) {
     repository.save(toEntity(dto));
@@ -59,20 +63,30 @@ public class ArticleService {
 
     List<Article> newsfeedArticles = new ArrayList<>();
     List<Map<String, Object>> categoryList = new ArrayList<>();
+    int numArticles =  (int) Double.parseDouble(jsonData.get("numArticles").toString());
 
-    if (jsonData != null && jsonData.get("children") != null) {
+    if (jsonData.get("children") != null) {
       categoryList = (List<Map<String, Object>>) jsonData.get("children");
     }
 
     for (Map<String,Object> entry: categoryList) {
-      String categoryName = entry.get("name").toString();
-      List<Map<String, Object>> category = (List<Map<String, Object>>)entry.get("children");
 
-      for (Map<String, Object> source: category) {
+      List<Map<String, Object>> categoryChildren = (List<Map<String, Object>>)entry.get("children");
+      String categoryName = entry.get("name").toString();
+      double categoryValue = Double.parseDouble(entry.get("size").toString());
+
+      for (Map<String, Object> source: categoryChildren) {
         String sourceName = source.get("name").toString();
-        double doubleValue = Double.parseDouble(source.get("value").toString());
-        int intValue = (int) doubleValue;
-        newsfeedArticles.addAll(repository.findArticlesBySourceAndCategory(categoryName, sourceName, intValue));
+        double sourceValue = Double.parseDouble(source.get("size").toString());
+
+        int articlesToLoad = calculationHelper.calcArticlesToLoad(numArticles, categoryValue, sourceValue);
+        List<Article> tmpArticles = repository.findArticlesBySourceAndCategory(categoryName, sourceName);
+
+        if (tmpArticles.size() < articlesToLoad) {
+          newsfeedArticles.addAll(tmpArticles);
+        } else {
+          newsfeedArticles.addAll(tmpArticles.subList(0, articlesToLoad));
+        }
       }
     }
     return newsfeedArticles;

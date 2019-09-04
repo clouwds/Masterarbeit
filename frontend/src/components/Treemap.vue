@@ -41,11 +41,11 @@
                 :y="y(children.y0)"
                 :width="x(children.x1 - children.x0 + children.parent.x0)"
                 :height="y(children.y1 - children.y0 + children.parent.y0)"
-                :style="{ fill: mapColor(children.data.name, index) }"
+                :style="{ fill: color(index) }"
                 >
 
                 <!-- The title attribute -->
-                <title>{{ capitalize(children.data.name)}} | {{children.data.value}}% </title>
+                <title>{{ capitalize(children.data.name)}} | {{children.data.size}}% </title>
               </rect>
 
               <!-- The visible square text element with the title and value of the child node -->
@@ -67,7 +67,7 @@
                 style="fill-opacity: 1;"
                 >
 
-                {{ roundValue(children.data.value)}}%
+                {{ roundValue(children.data.size)}}%
               </text>
 
             </g>
@@ -98,15 +98,23 @@
     </div>
 
     <slider-bar
-      v-for="(category, index) in jsonData.children"
-      :key="category.name"
-      :categoryName="capitalize(category.name)"
-      :maxValue="category.maxValue"
-      :totalValue="jsonData.value"
+      v-for="(node, index) in selectedNode.data.children"
+      :key="node.name"
+      :nodeName="capitalize(node.name)"
+      :minValue="node.minValue"
+      :maxValue="node.maxValue"
+      :totalValue="jsonData.size"
       :index="index"
       :jsonData="jsonData"
-      v-model="category.value">
+      :children="selectedNode.data.children"
+      v-model="node.size">
     </slider-bar>
+
+    <div>
+      <button @click="forceRerender">Update</button>
+      <button @click="resetValues">Reset</button>
+    </div>
+
   </div>
 </template>
 
@@ -148,34 +156,19 @@ export default {
       currentNode: {},
       color: {},
       catArr: []
-
     }
   },
   props: [
-    'jsonData'
+    'jsonData',
+    'lastNode'
   ],
-  // You can do whatever when the selected node changes
-  watch: {
-    selectedNode (newData, oldData) {
-
-    },
-    jsonData (newVal, oldVal) {
-      console.log('yes Im watching')
-      this.jsonData = newVal
-      var that = this
-
-      // An array with colors (can probably be replaced by a vuejs method)
-      that.color = d3.scaleOrdinal(d3.schemeCategory20)
-
-      that.initialize()
-      that.accumulate(that.rootNode, that)
-      that.treemap(that.rootNode)
-      that.catArr = that.jsonData.children
-    }
-  },
   // In the beginning...
   mounted () {
     var that = this
+
+    if (this.lastNode != null) {
+      this.selected = this.lastNode
+    }
 
     // An array with colors (can probably be replaced by a vuejs method)
     that.color = d3.scaleOrdinal(d3.schemeCategory20)
@@ -237,6 +230,14 @@ export default {
       this.y.domain([node.y0, node.y0 + (node.y1 - node.y0)])
 
       return node
+    },
+    localLastNode: {
+      get: function () {
+        return this.lastNode
+      },
+      set: function (value) {
+        this.$emit('update', value)
+      }
     }
   },
   methods: {
@@ -246,8 +247,10 @@ export default {
 
       if (that.jsonData) {
         that.rootNode = d3.hierarchy(that.jsonData)
-        .eachBefore(function (d) { d.id = (d.parent ? d.parent.id + '.' : '') + d.data.name }) // set id e.g. Newsviz.auto
-        .sum((d) => d.value)
+        .eachBefore(function (d) {
+          d.id = (d.parent ? d.parent.id + '.' : '') + d.data.name
+          d.value = that.calcValue(d)
+        })
         .sort(function (a, b) {
           return b.height - a.height || b.value - a.value
         })
@@ -265,10 +268,10 @@ export default {
       d._children = d.children
 
       if (d._children) {
-        d.value = d._children.reduce(function (p, v) { return p + context.accumulate(v, context) }, 0)
-        return d.value
+        d.size = d._children.reduce(function (p, v) { return p + context.accumulate(v, context) }, 0)
+        return d.size
       } else {
-        return d.value
+        return d.size
       }
     },
     // Helper method - gets a node by its id attribute
@@ -310,6 +313,27 @@ export default {
         // return colScaleSrc(name)
       }
       return colScaleCat(name)
+    },
+    calcValue (d) {
+      let child = d.data.size / 100
+      if (d.parent) {
+        let parent = d.parent.data.size / 100
+        return (child * parent) * 100
+      }
+      return d.data.size
+    },
+    forceRerender () {
+      console.log('before: ' + this.localLastNode)
+      this.localLastNode = this.selectedNode
+      console.log('after: ' + this.localLastNode)
+      this.$emit('reload')
+    },
+    resetValues () {
+      let nodes = this.selectedNode.data.children
+      for (let child of nodes) {
+        child.size = child.initialSize
+      }
+      this.$emit('reload')
     }
   }
 }
@@ -317,8 +341,25 @@ export default {
 
 <style scoped>
 
+  div {
+    margin: 20px;
+  }
+
 .treemap {
   margin: 30px;
+}
+
+button {
+  background-color: rgba(76, 175, 80, 0.78);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 text {

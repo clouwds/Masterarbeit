@@ -47,10 +47,8 @@ public class NewsImporter {
                 if (url != null) {
                     category = categoryHelper.getNewsCategory(url.toLowerCase());
                 }
-                if (category != null) {
-                    ArticleDto article = setArticleAttributes(newsItem, category, url);
-                    articleService.add(article);
-                }
+                ArticleDto article = setArticleAttributes(newsItem, category, url);
+                articleService.add(article);
             }
         }
     }

@@ -4,13 +4,16 @@
     <h1>NewsViz</h1>
 
     <Treemap
+      @reload="forceRerender"
       v-if="treemapJsonLoaded"
       :key="treemapKey"
+      :lastNode="lastNode"
       :jsonData="treemapJson">
     </Treemap>
 
-    <button @click="forceRerender">Update</button>
+<!--    <button @click="forceRerender">Update</button>-->
 
+    <div></div>
     <div>{{treemapJson}}</div>
 
     <card-component v-if="newsJsonLoaded"
@@ -48,12 +51,12 @@ export default {
       treemapJsonLoaded: false,
       newsJsonLoaded: false,
       treemapJson: null,
-      newsfeedJson: null,
       articles: null,
       categories: null,
       response: [],
       errors: [],
-      treemapKey: 0
+      treemapKey: 0,
+      lastNode: null
     }
   },
   mounted () {
@@ -90,15 +93,12 @@ export default {
       return str.charAt(0).toUpperCase() + str.slice(1)
     },
     forceRerender () {
-      console.log(this.treemapJson)
       this.treemapKey += 1
 
-      // api.input(this.treemapJson).then(response => {
-      //   this.treemapJson = response.data
-      //   this.categories = response.data.children
-      //   this.treemapJsonLoaded = true
-      //   this.sortByCategoryValue()
-      // })
+      api.input(this.treemapJson).then(response => {
+        this.articles = response.data
+        this.newsJsonLoaded = true
+      })
     }
   }
 }
